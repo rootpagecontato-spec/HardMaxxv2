@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Método Hardmaxx v2</title>
+<meta name="description" content="Guia técnico de looksmaxing em 48 páginas: a escada de quatro degraus, oito áreas e um plano de 90 dias. Sem promessa de resultado em 30 dias.">
+<meta name="theme-color" content="#0E1215">
+<link rel="canonical" href="https://SEU-USUARIO.github.io/hardmaxx/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Método Hardmaxx">
+<meta property="og:title" content="Método Hardmaxx v2">
+<meta property="og:description" content="Looksmaxing como protocolo, não como promessa. 48 páginas, 8 capítulos, plano de 90 dias.">
+<meta property="og:url" content="https://SEU-USUARIO.github.io/hardmaxx/">
+<meta property="og:image" content="https://SEU-USUARIO.github.io/hardmaxx/og.png">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Método Hardmaxx v2">
+<meta name="twitter:description" content="Looksmaxing como protocolo, não como promessa.">
+<meta name="twitter:image" content="https://SEU-USUARIO.github.io/hardmaxx/og.png">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Método Hardmaxx v2",
+  "description": "Guia técnico de looksmaxing em 48 páginas, organizado em quatro degraus de custo e risco, com plano integrado de 90 dias.",
+  "brand": { "@type": "Brand", "name": "Método Hardmaxx" },
+  "offers": {
+    "@type": "Offer",
+    "price": "35.00",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://SEU-USUARIO.github.io/hardmaxx/"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Isto substitui dermatologista ou ortodontista?","acceptedAnswer":{"@type":"Answer","text":"Não. O material é informativo. Medicamentos, procedimentos estéticos e cirurgias exigem acompanhamento de profissional habilitado. O guia te prepara para a consulta."}},
+    {"@type":"Question","name":"Quanto vou precisar gastar seguindo o protocolo?","acceptedAnswer":{"@type":"Answer","text":"Nas duas primeiras semanas, nada. O degrau 0 é gratuito. A primeira lista de compras aparece na semana 3 e tem três itens."}},
+    {"@type":"Question","name":"Serve para mim se eu tenho mais de 30 anos?","acceptedAnswer":{"@type":"Answer","text":"Serve. A parte de estrutura óssea muda de tom, mas pele, sono, físico, cabelo e eye area funcionam igual em qualquer idade."}},
+    {"@type":"Question","name":"Tem protocolo de calvície ou de minoxidil?","acceptedAnswer":{"@type":"Answer","text":"Não. Ficou fora desta edição de propósito, porque exige avaliação médica individualizada."}},
+    {"@type":"Question","name":"Como recebo o arquivo?","acceptedAnswer":{"@type":"Answer","text":"Por email, logo após a confirmação do pagamento. É um PDF, abre em celular, tablet ou computador."}}
+  ]
+}
+</script>
+
+<style>
+  html{color-scheme:light dark}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+</style>
+<style>
+:root{
+  --ink:#0E1215;
+  --ink-soft:#3F4A52;
+  --ink-faint:#6E7A83;
+  --paper:#F2F4F5;
+  --surface:#FFFFFF;
+  --surface-2:#E7EBED;
+  --line:#D2D9DC;
+  --line-soft:#E2E7E9;
+  --accent:#2C6E9B;
+  --accent-ink:#FFFFFF;
+  --accent-wash:#E2ECF3;
+  --warn:#8A5A1C;
+  --warn-wash:#F3EADB;
+  --grad-a:#0E1215;
+  --grad-b:#66737C;
+  --shadow:0 1px 2px rgba(14,18,21,.05), 0 12px 32px -16px rgba(14,18,21,.18);
+
+  --s25:2px; --s50:4px; --s75:8px; --s100:12px; --s200:16px; --s300:24px;
+  --s400:32px; --s500:40px; --s600:48px; --s700:64px; --s800:80px; --s900:96px;
+
+  --ease:cubic-bezier(0.32,0.72,0,1);
+  --measure:680px;
+  --sans:"Manrope","Segoe UI",system-ui,sans-serif;
+  --mono:"Geist Mono","SFMono-Regular",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#EDF1F3;
+    --ink-soft:#A9B5BD;
+    --ink-faint:#78858D;
+    --paper:#0E1215;
+    --surface:#181E22;
+    --surface-2:#1F262B;
+    --line:#2C353B;
+    --line-soft:#232B30;
+    --accent:#63A8D4;
+    --accent-ink:#0E1215;
+    --accent-wash:#16242E;
+    --warn:#D3A867;
+    --warn-wash:#241E14;
+    --grad-a:#FFFFFF;
+    --grad-b:#8E9BA3;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 16px 40px -20px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#EDF1F3;
+  --ink-soft:#A9B5BD;
+  --ink-faint:#78858D;
+  --paper:#0E1215;
+  --surface:#181E22;
+  --surface-2:#1F262B;
+  --line:#2C353B;
+  --line-soft:#232B30;
+  --accent:#63A8D4;
+  --accent-ink:#0E1215;
+  --accent-wash:#16242E;
+  --warn:#D3A867;
+  --warn-wash:#241E14;
+  --grad-a:#FFFFFF;
+  --grad-b:#8E9BA3;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 16px 40px -20px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--sans); font-size:16px; line-height:24px;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4,p,ul,ol,figure,table{margin:0}
+ul{padding:0; list-style:none}
+a{color:inherit}
+h1,h2,h3{text-wrap:balance; letter-spacing:-.022em; font-weight:600}
+p{text-wrap:pretty}
+
+.skip{position:absolute; left:-9999px; top:0; background:var(--accent); color:var(--accent-ink); padding:var(--s75) var(--s100); border-radius:0 0 8px 0; z-index:100}
+.skip:focus{left:0}
+
+:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:4px}
+@media (prefers-reduced-motion: reduce){
+  *{transition-duration:1ms !important; animation-duration:1ms !important}
+}
+
+/* ---------- shell ---------- */
+.wrap{max-width:1080px; margin:0 auto; padding:0 var(--s300)}
+.col{max-width:var(--measure)}
+.sec{padding-block:var(--s800); border-top:1px solid var(--line-soft)}
+.sec:first-of-type{border-top:0}
+.sec-head{display:flex; flex-direction:column; gap:var(--s200); max-width:var(--measure); margin-bottom:var(--s500)}
+.eyebrow{
+  font-family:var(--mono); font-size:12px; line-height:16px; text-transform:uppercase;
+  letter-spacing:.14em; color:var(--ink-faint); display:flex; align-items:center; gap:var(--s75);
+}
+.eyebrow::before{content:""; width:24px; height:1px; background:var(--accent); flex:none}
+h2{font-size:30px; line-height:36px}
+.lede{font-size:18px; line-height:28px; color:var(--ink-soft)}
+
+/* ---------- nav ---------- */
+nav{position:sticky; top:0; z-index:40; padding-top:var(--s300); pointer-events:none}
+.pill{
+  pointer-events:auto;
+  margin:0 auto; width:max-content; max-width:calc(100% - 32px);
+  display:flex; align-items:center; gap:var(--s200);
+  padding:var(--s75) var(--s75) var(--s75) var(--s200);
+  border:1px solid var(--line); border-radius:999px;
+  background:color-mix(in srgb, var(--surface) 82%, transparent);
+  backdrop-filter:blur(16px); box-shadow:var(--shadow);
+  transition:all 700ms var(--ease);
+}
+.brand{font-size:14px; line-height:20px; font-weight:700; letter-spacing:-.01em; white-space:nowrap}
+.brand small{font-family:var(--mono); font-weight:400; color:var(--ink-faint); letter-spacing:.06em}
+.navlinks{display:flex; gap:var(--s200); font-size:14px; line-height:20px; color:var(--ink-soft)}
+.navlinks a{text-decoration:none; transition:color 700ms var(--ease)}
+.navlinks a:hover{color:var(--ink)}
+.navlinks a[aria-current="true"]{color:var(--ink); font-weight:600}
+
+.btn{
+  display:inline-flex; align-items:center; gap:var(--s75); justify-content:center;
+  font-family:var(--sans); font-size:16px; line-height:24px; font-weight:600;
+  padding:var(--s75) var(--s100); border-radius:999px; border:1px solid transparent;
+  background:var(--accent); color:var(--accent-ink); text-decoration:none; cursor:pointer;
+  transition:all 700ms var(--ease);
+}
+.btn:hover{transform:translateY(-1px); filter:brightness(1.08)}
+.btn:active{transform:scale(.98)}
+.btn-sm{font-size:14px; line-height:20px}
+.btn-lg{font-size:18px; line-height:28px; padding:var(--s100) var(--s300)}
+.btn-ghost{background:transparent; color:var(--ink); border-color:var(--line)}
+.btn-ghost:hover{background:var(--surface-2); filter:none}
+
+.menu-toggle{display:none}
+
+/* ---------- hero ---------- */
+header.hero{padding-top:var(--s700); padding-bottom:var(--s800)}
+.hero-tag{
+  display:inline-flex; align-items:center; gap:var(--s75); font-family:var(--mono);
+  font-size:12px; line-height:16px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-soft); border:1px solid var(--line); border-radius:999px;
+  padding:var(--s50) var(--s100); background:var(--surface); margin-bottom:var(--s300);
+}
+.dot{width:6px; height:6px; border-radius:999px; background:var(--accent); flex:none}
+h1{
+  max-width:var(--measure); font-size:60px; line-height:1; font-weight:700; letter-spacing:-.035em;
+  background:linear-gradient(100deg, var(--grad-a), var(--grad-b));
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+}
+.hero-sub{max-width:var(--measure); margin-top:var(--s300); font-size:18px; line-height:28px; color:var(--ink-soft)}
+.hero-cta{display:flex; flex-wrap:wrap; align-items:center; gap:var(--s200); margin-top:var(--s500)}
+.hero-note{font-family:var(--mono); font-size:12px; line-height:16px; color:var(--ink-faint)}
+.spec{
+  display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:var(--s300);
+  margin-top:var(--s700); padding-top:var(--s300); border-top:1px solid var(--line-soft);
+  max-width:840px;
+}
+.spec div{display:flex; flex-direction:column; gap:var(--s50)}
+.spec dt{font-family:var(--mono); font-size:12px; line-height:16px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-faint)}
+.spec dd{margin:0; font-size:18px; line-height:28px; font-weight:600; font-variant-numeric:tabular-nums}
+
+/* ---------- anti claims ---------- */
+.deny{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--s200)}
+.deny li{
+  display:flex; gap:var(--s100); padding:var(--s200); border-radius:12px;
+  background:var(--surface); border:1px solid var(--line-soft);
+  font-size:16px; line-height:24px; color:var(--ink-soft);
+}
+.deny b{color:var(--ink); font-weight:600}
+.mark{flex:none; width:20px; height:20px; margin-top:var(--s25); color:var(--warn)}
+
+/* ---------- ladder ---------- */
+.ladder{display:flex; flex-direction:column; gap:0; border-left:2px solid var(--line); max-width:840px}
+.rung{position:relative; padding:var(--s300) 0 var(--s300) var(--s400); transition:all 700ms var(--ease)}
+.rung::before{
+  content:""; position:absolute; left:-5px; top:var(--s400); width:8px; height:8px;
+  border-radius:999px; background:var(--paper); border:2px solid var(--accent);
+}
+.rung-top{display:flex; align-items:baseline; gap:var(--s100); flex-wrap:wrap}
+.rung-n{font-family:var(--mono); font-size:12px; line-height:16px; letter-spacing:.12em; color:var(--accent); text-transform:uppercase}
+.rung h3{font-size:20px; line-height:28px}
+.rung p{margin-top:var(--s75); color:var(--ink-soft); max-width:var(--measure)}
+.rung-meta{
+  display:flex; gap:var(--s200); flex-wrap:wrap; margin-top:var(--s100);
+  font-family:var(--mono); font-size:12px; line-height:16px; color:var(--ink-faint);
+}
+.rule-callout{
+  margin-top:var(--s500); max-width:var(--measure); padding:var(--s300);
+  border:1px solid var(--accent); border-radius:16px; background:var(--accent-wash);
+}
+.rule-callout p{font-size:18px; line-height:28px; font-weight:600}
+.rule-callout span{display:block; margin-top:var(--s75); font-size:14px; line-height:20px; font-weight:400; color:var(--ink-soft)}
+
+/* ---------- tagline reveal ---------- */
+.reveal-sec{padding-block:var(--s900)}
+.reveal{
+  max-width:var(--measure); font-size:36px; line-height:40px; font-weight:600;
+  letter-spacing:-.03em; text-wrap:balance;
+}
+.reveal i{font-style:normal}
+.reveal w{
+  color:color-mix(in srgb, var(--ink) 28%, transparent);
+  transition:color 700ms var(--ease);
+}
+.reveal w.on{color:var(--ink)}
+.reveal .hi.on{color:var(--accent)}
+
+/* ---------- chapters ---------- */
+.chaps{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--s200)}
+.chap{
+  display:flex; flex-direction:column; gap:var(--s75);
+  padding:var(--s300); border:1px solid var(--line-soft); border-radius:16px; background:var(--surface);
+  transition:all 700ms var(--ease);
+}
+.chap:hover{border-color:var(--line); transform:translateY(-2px)}
+.chap-n{font-family:var(--mono); font-size:12px; line-height:16px; color:var(--accent); letter-spacing:.12em}
+.chap h3{font-size:18px; line-height:28px}
+.chap p{font-size:14px; line-height:20px; color:var(--ink-soft)}
+.chap ul{display:flex; flex-wrap:wrap; gap:var(--s50); margin-top:var(--s50)}
+.chap li{
+  font-family:var(--mono); font-size:12px; line-height:16px; color:var(--ink-faint);
+  border:1px solid var(--line-soft); border-radius:6px; padding:1px var(--s50);
+}
+
+/* ---------- table ---------- */
+.tablewrap{overflow-x:auto; border:1px solid var(--line-soft); border-radius:16px; background:var(--surface); max-width:840px}
+table{border-collapse:collapse; width:100%; font-size:14px; line-height:20px; min-width:520px}
+th,td{text-align:left; padding:var(--s100) var(--s200); border-bottom:1px solid var(--line-soft)}
+thead th{
+  font-family:var(--mono); font-size:12px; line-height:16px; text-transform:uppercase;
+  letter-spacing:.1em; color:var(--ink-faint); font-weight:400; background:var(--surface-2);
+}
+tbody tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600}
+td+td{font-family:var(--mono); font-variant-numeric:tabular-nums; color:var(--ink-soft)}
+
+/* ---------- fit ---------- */
+.fit{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--s300); max-width:840px}
+.fit-card{padding:var(--s300); border:1px solid var(--line-soft); border-radius:16px; background:var(--surface)}
+.fit-card h3{font-size:18px; line-height:28px; margin-bottom:var(--s200)}
+.fit-card ul{display:flex; flex-direction:column; gap:var(--s100)}
+.fit-card li{display:flex; gap:var(--s75); font-size:14px; line-height:20px; color:var(--ink-soft)}
+.fit-card svg{flex:none; width:16px; height:16px; margin-top:var(--s25)}
+.yes svg{color:var(--accent)}
+.no svg{color:var(--ink-faint)}
+
+/* ---------- myths ---------- */
+.myths{display:flex; flex-direction:column; gap:var(--s200); max-width:840px}
+.myth{
+  display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.2fr); gap:var(--s300);
+  padding:var(--s300); border:1px solid var(--line-soft); border-radius:16px; background:var(--surface);
+}
+.myth q{font-size:18px; line-height:28px; font-weight:600; quotes:"“" "”"}
+.myth p{font-size:14px; line-height:20px; color:var(--ink-soft)}
+.myth .verdict{
+  font-family:var(--mono); font-size:12px; line-height:16px; text-transform:uppercase;
+  letter-spacing:.1em; color:var(--warn); display:block; margin-bottom:var(--s50);
+}
+
+/* ---------- offer ---------- */
+.offer{
+  max-width:var(--measure); padding:var(--s500); border:1px solid var(--line);
+  border-radius:24px; background:var(--surface); box-shadow:var(--shadow);
+}
+.price{display:flex; align-items:baseline; gap:var(--s75); margin-block:var(--s200) var(--s100)}
+.price b{font-size:48px; line-height:1; font-weight:700; letter-spacing:-.04em; font-variant-numeric:tabular-nums}
+.price span{font-family:var(--mono); font-size:14px; line-height:20px; color:var(--ink-faint)}
+.offer ul{display:flex; flex-direction:column; gap:var(--s75); margin-block:var(--s300)}
+.offer ul li{display:flex; gap:var(--s75); font-size:14px; line-height:20px; color:var(--ink-soft)}
+.offer ul svg{flex:none; width:16px; height:16px; margin-top:var(--s25); color:var(--accent)}
+.guarantee{
+  margin-top:var(--s300); padding:var(--s200); border-radius:16px; background:var(--surface-2);
+  font-size:14px; line-height:20px; color:var(--ink-soft);
+}
+.guarantee b{color:var(--ink)}
+
+/* ---------- faq ---------- */
+.faq{max-width:var(--measure); display:flex; flex-direction:column}
+details{border-bottom:1px solid var(--line-soft)}
+summary{
+  cursor:pointer; list-style:none; padding:var(--s300) var(--s400) var(--s300) 0;
+  font-size:18px; line-height:28px; font-weight:600; position:relative;
+  transition:color 700ms var(--ease);
+}
+summary::-webkit-details-marker{display:none}
+summary:hover{color:var(--accent)}
+summary::after{
+  content:""; position:absolute; right:var(--s75); top:50%; width:10px; height:10px;
+  border-right:2px solid var(--ink-faint); border-bottom:2px solid var(--ink-faint);
+  transform:translateY(-70%) rotate(45deg); transition:transform 700ms var(--ease);
+}
+details[open] summary::after{transform:translateY(-30%) rotate(225deg)}
+details p{padding-bottom:var(--s300); color:var(--ink-soft); max-width:600px}
+
+/* ---------- final ---------- */
+.final{text-align:left; padding-block:var(--s900)}
+.final h2{font-size:36px; line-height:40px; max-width:var(--measure)}
+.final p{margin-top:var(--s200); max-width:var(--measure); font-size:18px; line-height:28px; color:var(--ink-soft)}
+
+footer{border-top:1px solid var(--line-soft); padding-block:var(--s500) var(--s700); font-size:14px; line-height:20px; color:var(--ink-faint)}
+.foot-top{display:flex; flex-wrap:wrap; gap:var(--s300); justify-content:space-between; align-items:flex-start}
+.foot-links{display:flex; gap:var(--s300); flex-wrap:wrap}
+.foot-links a{text-decoration:none; transition:color 700ms var(--ease)}
+.foot-links a:hover{color:var(--ink)}
+.disclaimer{margin-top:var(--s400); padding-top:var(--s300); border-top:1px solid var(--line-soft); max-width:840px}
+
+/* ---------- scroll reveal ---------- */
+.rv{opacity:1; transform:none}
+.js .rv{opacity:0; transform:translateY(24px); filter:blur(6px); transition:opacity 800ms var(--ease), transform 800ms var(--ease), filter 800ms var(--ease)}
+.js .rv.in{opacity:1; transform:none; filter:none}
+
+@media (max-width:860px){
+  .spec{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .deny,.chaps,.fit{grid-template-columns:minmax(0,1fr)}
+  .myth{grid-template-columns:minmax(0,1fr); gap:var(--s200)}
+  h1{font-size:48px}
+  .navlinks{display:none}
+  .offer{padding:var(--s300)}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<nav aria-label="Navegação principal">
+  <div class="pill">
+    <span class="brand">Hardmaxx <small>v2</small></span>
+    <div class="navlinks">
+      <a href="#escada" aria-current="false">A escada</a>
+      <a href="#conteudo">Conteúdo</a>
+      <a href="#prazos">Prazos</a>
+      <a href="#faq">Dúvidas</a>
+    </div>
+    <a class="btn btn-sm" href="#comprar">Comprar</a>
+  </div>
+</nav>
+
+<main>
+<div class="wrap">
+
+  <header class="hero">
+    <span class="hero-tag"><span class="dot"></span>Segunda edição &middot; 48 páginas</span>
+    <h1>Looksmaxing como<br>protocolo, não como<br>promessa</h1>
+    <p class="hero-sub">Um guia técnico de aparência masculina organizado em quatro degraus de custo e risco: hábito, consumível, procedimento, cirurgia. Você começa pelo degrau que é gratuito, porque é onde está a maior parte do resultado.</p>
+    <div class="hero-cta">
+      <a class="btn btn-lg" href="#comprar">Comprar por R$ 35</a>
+      <a class="btn btn-lg btn-ghost" href="#conteudo">Ver o sumário</a>
+    </div>
+    <p class="hero-note" style="margin-top:var(--s300)">PDF para leitura imediata &middot; 7 dias para desistir e receber de volta</p>
+
+    <dl class="spec rv">
+      <div><dt>Extensão</dt><dd>48 páginas</dd></div>
+      <div><dt>Áreas cobertas</dt><dd>5 + sono</dd></div>
+      <div><dt>Plano de execução</dt><dd>90 dias</dd></div>
+      <div><dt>Protocolos fechados</dt><dd>6</dd></div>
+    </dl>
+  </header>
+
+  <section class="sec rv" aria-labelledby="nao">
+    <div class="sec-head">
+      <span class="eyebrow">Antes de qualquer coisa</span>
+      <h2 id="nao">Quatro coisas que este guia não faz</h2>
+      <p class="lede">Este bloco está aqui porque é o filtro mais rápido. Se você quer alguma das quatro, economize seu dinheiro e feche a página.</p>
+    </div>
+    <ul class="deny">
+      <li><svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg><span><b>Não promete transformação em 30 dias.</b> Pele responde em 12 semanas. Cabelo em 6 meses. Físico em 12 a 24 meses. Qualquer prazo muito menor que isso está vendendo algo.</span></li>
+      <li><svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg><span><b>Não vende harmonização como solução universal.</b> Preenchimento resolve volume e contorno. Não resolve proporção esquelética, e em excesso produz o rosto artificial que todo mundo identifica.</span></li>
+      <li><svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg><span><b>Não trata calvície.</b> É assunto que exige acompanhamento médico individualizado e ficou deliberadamente fora desta edição.</span></li>
+      <li><svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg><span><b>Não trata prática autolesiva como técnica.</b> Bonesmashing tem um capítulo, e o capítulo explica por que ele não é método e sim lesão com resultado imprevisível.</span></li>
+    </ul>
+  </section>
+
+  <section class="sec rv" id="escada" aria-labelledby="escada-t">
+    <div class="sec-head">
+      <span class="eyebrow">O eixo do método</span>
+      <h2 id="escada-t">A escada de quatro degraus</h2>
+      <p class="lede">Todo capítulo do livro segue a mesma estrutura. Ela existe para resolver o erro mais comum de quem começa: pular direto para o degrau 3 sem ter feito o degrau 0.</p>
+    </div>
+
+    <div class="ladder">
+      <article class="rung">
+        <div class="rung-top"><span class="rung-n">Degrau 0</span><h3>Hábito</h3></div>
+        <p>Sono, respiração nasal, postura, gordura corporal, higiene. É o degrau que mais gente ignora e o que mais retorna por unidade de esforço. Sem ele, nenhum procedimento rende o que deveria.</p>
+        <div class="rung-meta"><span>Custo: R$ 0</span><span>Reversível: sim</span><span>Retorno: alto</span></div>
+      </article>
+      <article class="rung">
+        <div class="rung-top"><span class="rung-n">Degrau 1</span><h3>Consumível</h3></div>
+        <p>Skincare, produto de cabelo, suplementação que corrige deficiência real, roupa que serve. Retorno moderado e previsível, desde que sustentado por meses e não por três semanas.</p>
+        <div class="rung-meta"><span>Custo: baixo, recorrente</span><span>Reversível: sim</span><span>Retorno: moderado</span></div>
+      </article>
+      <article class="rung">
+        <div class="rung-top"><span class="rung-n">Degrau 2</span><h3>Procedimento</h3></div>
+        <p>Toxina botulínica, preenchimento, laser, microagulhamento, ortodontia. Geralmente reversível ou temporário. Exige profissional habilitado, e exige critério na escolha dele.</p>
+        <div class="rung-meta"><span>Custo: médio a alto</span><span>Reversível: em parte</span><span>Retorno: específico</span></div>
+      </article>
+      <article class="rung">
+        <div class="rung-top"><span class="rung-n">Degrau 3</span><h3>Cirurgia</h3></div>
+        <p>Ortognática, blefaroplastia, implantes, rinoplastia. É o último degrau porque o erro aqui não tem desfazer. O guia traz as cinco perguntas que precisam estar respondidas antes de marcar consulta.</p>
+        <div class="rung-meta"><span>Custo: alto</span><span>Reversível: não</span><span>Risco: real</span></div>
+      </article>
+    </div>
+
+    <div class="rule-callout">
+      <p>Não suba de degrau enquanto o anterior não estiver esgotado.
+      <span>Não faz sentido gastar com preenchimento de olheira dormindo cinco horas por noite. Não faz sentido pensar em implante de mandíbula com 22% de gordura corporal.</span></p>
+    </div>
+  </section>
+
+  <section class="sec reveal-sec rv" aria-label="Resumo do método">
+    <p class="reveal" id="reveal">Os primeiros 80% vêm de sono, gordura corporal, pele, corte de cabelo e roupa que serve. Os últimos 5% custam muito dinheiro, muito risco, e quase ninguém além de você percebe. <i class="hi-line">Saber onde parar faz parte do método.</i></p>
+  </section>
+
+  <section class="sec rv" id="conteudo" aria-labelledby="conteudo-t">
+    <div class="sec-head">
+      <span class="eyebrow">Oito capítulos</span>
+      <h2 id="conteudo-t">O que tem dentro</h2>
+      <p class="lede">Cada capítulo termina em um protocolo consolidado: a lista do que fazer, na ordem, sem precisar reler o capítulo.</p>
+    </div>
+    <div class="chaps">
+      <article class="chap">
+        <span class="chap-n">CAP 1</span><h3>Eye area</h3>
+        <p>Canthal tilt, hooding, exposição escleral, projeção infraorbital. A tabela que separa o que é estrutural do que responde a hábito, e por que sombra de projeção rasa não é olheira de pigmento.</p>
+        <ul><li>olheiras</li><li>inchaço periorbital</li><li>sobrancelha</li><li>cirurgia</li></ul>
+      </article>
+      <article class="chap">
+        <span class="chap-n">CAP 2</span><h3>Pele</h3>
+        <p>Menos produtos, mais tempo. O combo universal de três itens, a base mínima em volta dele, quais ativos não se misturam, e protocolo de acne separado por gravidade.</p>
+        <ul><li>tretinoína</li><li>barreira</li><li>cicatriz</li><li>FPS</li></ul>
+      </article>
+      <article class="chap">
+        <span class="chap-n">CAP 3</span><h3>Estrutura óssea</h3>
+        <p>O que realmente muda o rosto adulto: gordura corporal, retenção de líquido, respiração nasal, postura cervical, masseter. E onde a conversa passa a ser de ortodontista ou cirurgião.</p>
+        <ul><li>mewing</li><li>ângulo gonial</li><li>expansão</li><li>ortognática</li></ul>
+      </article>
+      <article class="chap">
+        <span class="chap-n">CAP 4</span><h3>Cabelo</h3>
+        <p>Conheça a curvatura e a espessura antes de comprar qualquer coisa. Corte por formato de rosto, e o vocabulário exato para pedir ao barbeiro o que você quer sem sair com outra coisa.</p>
+        <ul><li>curvatura</li><li>corte</li><li>styling</li><li>barba</li></ul>
+      </article>
+      <article class="chap">
+        <span class="chap-n">CAP 5</span><h3>Físico</h3>
+        <p>O que a silhueta comunica, prioridade de treino por retorno visual, cutting e bulking decididos por média semanal de peso, e a auditoria de guarda roupa pelo critério da costura do ombro.</p>
+        <ul><li>prioridade</li><li>nutrição</li><li>postura</li><li>frame</li></ul>
+      </article>
+      <article class="chap">
+        <span class="chap-n">CAP 6</span><h3>Sono e hormônio</h3>
+        <p>Por que sono é a variável central: mexe em olheira, inchaço, pele, hormônio e composição corporal ao mesmo tempo. Os sinais que indicam apneia e não falta de disciplina.</p>
+        <ul><li>protocolo</li><li>apneia</li><li>cortisol</li><li>exames</li></ul>
+      </article>
+      <article class="chap">
+        <span class="chap-n">CAP 7</span><h3>Mitos e armadilhas</h3>
+        <p>Metade do ganho vem de não fazer coisa errada. Doze mitos desmontados, as quatro armadilhas de percurso, e a lista de sinais de quando o problema deixou de ser estético.</p>
+        <ul><li>bonesmashing</li><li>gua sha</li><li>exercício facial</li><li>TDC</li></ul>
+      </article>
+      <article class="chap">
+        <span class="chap-n">CAP 8</span><h3>Plano de 90 dias</h3>
+        <p>Tudo em ordem de execução. Semana 0 de linha de base, duas semanas sem comprar nada, primeiras compras na semana 3, foto de controle no dia 30, avaliação real no dia 90.</p>
+        <ul><li>linha de base</li><li>semana a semana</li><li>ajuste</li><li>manutenção</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec rv" id="prazos" aria-labelledby="prazos-t">
+    <div class="sec-head">
+      <span class="eyebrow">Extraído do capítulo 8</span>
+      <h2 id="prazos-t">A tabela de expectativa realista</h2>
+      <p class="lede">Esta tabela está no livro e é a página que mais gente fotografa. Ela existe para você não desistir na semana 6 achando que nada funcionou.</p>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <caption class="eyebrow" style="padding:var(--s200) var(--s200) 0; justify-content:flex-start">Prazos por área</caption>
+        <thead><tr><th scope="col">Área</th><th scope="col">Primeiros sinais</th><th scope="col">Resultado consolidado</th></tr></thead>
+        <tbody>
+          <tr><td>Inchaço facial</td><td>3 a 7 dias</td><td>4 semanas</td></tr>
+          <tr><td>Postura e perfil</td><td>4 semanas</td><td>3 a 6 meses</td></tr>
+          <tr><td>Pele, textura e acne</td><td>8 a 12 semanas</td><td>6 meses</td></tr>
+          <tr><td>Marcas pós inflamatórias</td><td>3 meses</td><td>6 a 12 meses</td></tr>
+          <tr><td>Cabelo</td><td>imediato no corte</td><td>6 meses</td></tr>
+          <tr><td>Gordura corporal</td><td>4 semanas</td><td>3 a 6 meses</td></tr>
+          <tr><td>Massa muscular visível</td><td>3 meses</td><td>12 a 24 meses</td></tr>
+          <tr><td>Ortodontia</td><td>6 meses</td><td>1 a 3 anos</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="sec rv" aria-labelledby="fit-t">
+    <div class="sec-head">
+      <span class="eyebrow">Adequação</span>
+      <h2 id="fit-t">Para quem serve e para quem não serve</h2>
+    </div>
+    <div class="fit">
+      <div class="fit-card yes">
+        <h3>Serve se você</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Já gastou dinheiro em produto sem critério e quer parar de fazer isso</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Está perdido entre dez rotinas de skincare contraditórias do YouTube</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Está considerando um procedimento e quer saber o que vem antes dele</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Aceita medir com foto padronizada uma vez por mês e executar 12 semanas</span></li>
+        </ul>
+      </div>
+      <div class="fit-card no">
+        <h3>Não serve se você</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Quer resultado visível em duas semanas</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Procura prescrição de medicamento ou dose sem passar por médico</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Quer protocolo de calvície, que ficou fora desta edição de propósito</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Checa a aparência dezenas de vezes por dia e já evita sair por causa disso. Nesse caso o capítulo 7 aponta o caminho, e ele não é um e-book.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec rv" aria-labelledby="mitos-t">
+    <div class="sec-head">
+      <span class="eyebrow">Capítulo 7, amostra</span>
+      <h2 id="mitos-t">Três dos mitos que o livro desmonta</h2>
+      <p class="lede">Não por ceticismo decorativo. Cada um desses tem uma rota alternativa descrita em outro capítulo, com risco controlado.</p>
+    </div>
+    <div class="myths">
+      <article class="myth">
+        <q>Bonesmashing deixa a mandíbula marcada.</q>
+        <div><span class="verdict">Não é técnica, é lesão</span><p>Remodelação óssea responde a carga distribuída e progressiva, não a impacto traumático. O tecido que se forma em resposta a trauma se deposita onde a lesão foi, na quantidade que ela gerou, no formato que a cicatrização produzir. Ninguém controla isso. Os resultados possíveis são, em ordem de probabilidade: nada, assimetria permanente, ou dano.</p></div>
+      </article>
+      <article class="myth">
+        <q>Mewing muda o esqueleto do adulto.</q>
+        <div><span class="verdict">Boa prática, efeito exagerado</span><p>Postura correta de língua e respiração nasal são hábito válido e estão no degrau 0. Remodelação óssea em adulto por pressão de língua não acontece. E pressão forte não acelera nada: pode inclinar dentes e criar problema ortodôntico.</p></div>
+      </article>
+      <article class="myth">
+        <q>Suplemento X faz crescer cabelo e barba.</q>
+        <div><span class="verdict">Corrige deficiência, não cria excedente</span><p>Se você não tem a deficiência, o suplemento não faz nada. Faz mais sentido verificar com exame do que comprar às cegas. A mesma lógica vale para o que se vende como booster hormonal.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec rv" id="comprar" aria-labelledby="comprar-t">
+    <div class="sec-head">
+      <span class="eyebrow">A oferta</span>
+      <h2 id="comprar-t">Método Hardmaxx v2, em PDF</h2>
+    </div>
+    <div class="offer">
+      <span class="eyebrow">Pagamento único</span>
+      <div class="price"><b>R$ 35</b><span>à vista no Pix ou no cartão</span></div>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>48 páginas, 8 capítulos, 6 protocolos consolidados</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Protocolo fotográfico de 5 ângulos para medir sua linha de base</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Plano de 90 dias semana a semana, com o que comprar e quando</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Acesso ao arquivo logo após a confirmação do pagamento</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Atualizações da segunda edição incluídas, sem cobrança nova</span></li>
+      </ul>
+      <a class="btn btn-lg" style="width:100%" href="#" data-checkout>Comprar o guia agora</a>
+      <p class="guarantee"><b>7 dias para desistir.</b> Compra online no Brasil tem direito de arrependimento por lei. Se você abrir o arquivo e concluir que não é para você, responda o email da compra dentro de 7 dias e o valor volta integral, sem precisar justificar.</p>
+    </div>
+  </section>
+
+  <section class="sec rv" id="faq" aria-labelledby="faq-t">
+    <div class="sec-head">
+      <span class="eyebrow">Dúvidas</span>
+      <h2 id="faq-t">Antes de comprar</h2>
+    </div>
+    <div class="faq">
+      <details open><summary>Isto substitui dermatologista ou ortodontista?</summary><p>Não, e o livro diz isso na segunda página. O material é informativo. Medicamentos, procedimentos estéticos e cirurgias citados exigem acompanhamento de profissional habilitado. O que o guia faz é te deixar preparado para a consulta: saber o que perguntar, o que já esgotou em casa e o que ainda não faz sentido pedir.</p></details>
+      <details><summary>Quanto vou precisar gastar seguindo o protocolo?</summary><p>Nas duas primeiras semanas, nada. O degrau 0 é inteiramente gratuito: sono, respiração, postura, higiene, gordura corporal. A primeira lista de compras aparece na semana 3 e tem três itens, não trinta. Um dos pontos centrais do livro é que comprar antes de fazer dá a sensação de progresso sem o progresso.</p></details>
+      <details><summary>Serve para mim se eu tenho mais de 30 anos?</summary><p>Serve. A parte de estrutura óssea muda de tom, porque expansão e ortodontia respondem diferente depois do fechamento das suturas, e o livro é explícito sobre isso. Pele, sono, físico, cabelo e eye area funcionam igual, e é ali que está a maior parte do retorno em qualquer idade.</p></details>
+      <details><summary>Tem protocolo de calvície ou de minoxidil?</summary><p>Não. Ficou fora desta edição de propósito, porque exige avaliação médica individualizada e porque um capítulo genérico sobre isso faria mais mal que bem. Se queda de cabelo é a sua questão principal, este não é o material certo para você agora.</p></details>
+      <details><summary>É só teoria ou dá para executar?</summary><p>Cada capítulo fecha em um protocolo consolidado, e o capítulo 8 junta todos em uma sequência de 90 dias dividida por semana, com o que iniciar, o que manter e quando tirar a foto de controle. A leitura leva uma tarde. A execução leva 90 dias.</p></details>
+      <details><summary>Como recebo o arquivo?</summary><p>Por email, logo após a confirmação do pagamento. É um PDF, abre em celular, tablet ou computador, sem aplicativo nem login. Se o email não chegar, responda o comprovante e o arquivo é reenviado manualmente.</p></details>
+      <details><summary>Por que a segunda edição?</summary><p>A primeira tratava as áreas de forma isolada. Esta reorganiza tudo pela escada de custo e risco, adiciona o capítulo de sono e hormônio, expande o de mitos, e fecha com o plano integrado de 90 dias que antes não existia.</p></details>
+      <details><summary>E se eu já faço quase tudo isso?</summary><p>Então o valor está em outro lugar: na tabela que separa o que é estrutural do que não é, nos prazos reais por área, e nas quatro armadilhas de percurso. A mais comum entre quem já faz bastante coisa é trocar de protocolo a cada três semanas e nunca medir nada.</p></details>
+    </div>
+  </section>
+
+  <section class="final rv" aria-labelledby="final-t">
+    <h2 id="final-t">Faça o degrau 0 por inteiro. Depois disso a gente conversa sobre o resto.</h2>
+    <p>É gratuito, é onde está a maior parte do resultado, e é o que quase todo mundo pula. O guia serve para você não pular.</p>
+    <div class="hero-cta">
+      <a class="btn btn-lg" href="#comprar">Comprar por R$ 35</a>
+      <span class="hero-note">PDF imediato &middot; 7 dias de garantia</span>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <p style="font-weight:700; color:var(--ink)">Método Hardmaxx <span style="font-family:var(--mono); font-weight:400; color:var(--ink-faint)">v2</span></p>
+        <p style="margin-top:var(--s50)">Guia técnico de looksmaxing. Segunda edição.</p>
+      </div>
+      <div class="foot-links">
+        <a href="#comprar">Comprar</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#" data-legal>Termos de uso</a>
+        <a href="#" data-legal>Privacidade</a>
+        <a href="#" data-legal>Reembolso</a>
+      </div>
+    </div>
+    <p class="disclaimer"><b style="color:var(--ink)">Aviso.</b> Este material é informativo e não substitui avaliação médica. Nada aqui é prescrição. Medicamentos, procedimentos estéticos e cirurgias citados exigem acompanhamento de profissional habilitado, seja dermatologista, ortodontista ou cirurgião. Quem lê e aplica por conta própria assume o risco. Se a insatisfação com a aparência ocupa horas do seu dia, atrapalha trabalho e relações, ou já te levou a considerar se machucar, procure um psicólogo ou psiquiatra. Isso tem nome clínico e tem tratamento que funciona.</p>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+
+/* scroll reveals */
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+  });
+}, {rootMargin:'0px 0px -8% 0px', threshold:0.08});
+document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+/* word by word tagline reveal */
+(function(){
+  var host = document.getElementById('reveal');
+  if(!host) return;
+  var frag = document.createDocumentFragment();
+  Array.prototype.forEach.call(host.childNodes, function(node){
+    var hi = node.nodeType === 1 && node.classList.contains('hi-line');
+    var text = node.textContent;
+    text.split(/(\s+)/).forEach(function(tok){
+      if(!tok) return;
+      if(/^\s+$/.test(tok)){ frag.appendChild(document.createTextNode(tok)); return; }
+      var w = document.createElement('w');
+      if(hi) w.className = 'hi';
+      w.textContent = tok;
+      frag.appendChild(w);
+    });
+  });
+  host.textContent = '';
+  host.appendChild(frag);
+
+  var words = host.querySelectorAll('w');
+  var wio = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return;
+      var i = Array.prototype.indexOf.call(words, e.target);
+      e.target.style.transitionDelay = (Math.min(i, 12) * 18) + 'ms';
+      e.target.classList.add('on');
+      wio.unobserve(e.target);
+    });
+  }, {rootMargin:'-35% 0px -35% 0px', threshold:0});
+  Array.prototype.forEach.call(words, function(w){ wio.observe(w); });
+})();
+
+/* current section in nav */
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.navlinks a'));
+  var targets = links.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+  var sio = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return;
+      links.forEach(function(a, i){ a.setAttribute('aria-current', targets[i] === e.target ? 'true' : 'false'); });
+    });
+  }, {rootMargin:'-45% 0px -50% 0px'});
+  targets.forEach(function(t){ if(t) sio.observe(t); });
+})();
+
+/* checkout + legal placeholders: no dead links */
+document.querySelectorAll('[data-checkout], [data-legal]').forEach(function(el){
+  el.addEventListener('click', function(ev){
+    if(el.getAttribute('href') !== '#') return;
+    ev.preventDefault();
+    var box = document.createElement('p');
+    box.textContent = 'Link ainda não configurado. Substitua o href por sua URL de checkout ou de política.';
+    box.style.cssText = 'margin-top:12px;font-size:14px;line-height:20px;color:var(--warn);background:var(--warn-wash);padding:12px;border-radius:8px';
+    var prev = el.parentNode.querySelector('[data-notice]');
+    if(prev) prev.remove();
+    box.setAttribute('data-notice','');
+    el.parentNode.insertBefore(box, el.nextSibling);
+  });
+});
+</script>
+</body>
+</html>
