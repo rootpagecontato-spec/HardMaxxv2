@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Método Hardmaxx v2</title>
+<meta name="description" content="Guia técnico de looksmaxing em 65 páginas: a escada de quatro degraus, oito capítulos, a parte de estrutura óssea região por região e um plano de 90 dias. Sem promessa de resultado em 30 dias.">
+<meta name="theme-color" content="#0A0A0B">
+<link rel="canonical" href="https://rootpagecontato-spec.github.io/HardMaxxv2/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Método Hardmaxx">
+<meta property="og:title" content="Método Hardmaxx v2">
+<meta property="og:description" content="Looksmaxing como protocolo, não como promessa. 65 páginas, 8 capítulos, estrutura óssea em detalhe e plano de 90 dias.">
+<meta property="og:url" content="https://rootpagecontato-spec.github.io/HardMaxxv2/">
+<meta property="og:image" content="https://rootpagecontato-spec.github.io/HardMaxxv2/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Método Hardmaxx v2">
+<meta name="twitter:description" content="Looksmaxing como protocolo, não como promessa.">
+<meta name="twitter:image" content="https://rootpagecontato-spec.github.io/HardMaxxv2/og.png">
+
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Geist+Mono:wght@400;500&display=swap">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Método Hardmaxx v2",
+  "description": "Guia técnico de looksmaxing em 65 páginas, organizado em quatro degraus de custo e risco, com uma parte dedicada a estrutura óssea e plano integrado de 90 dias.",
+  "brand": { "@type": "Brand", "name": "Método Hardmaxx" },
+  "offers": {
+    "@type": "Offer",
+    "price": "20.00",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://pay.kiwify.com.br/bQn1LjJ"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Isto substitui dermatologista ou ortodontista?","acceptedAnswer":{"@type":"Answer","text":"Não. O material é informativo. Medicamentos, procedimentos estéticos e cirurgias exigem acompanhamento de profissional habilitado. O guia te prepara para a consulta."}},
+    {"@type":"Question","name":"Quanto vou precisar gastar seguindo o protocolo?","acceptedAnswer":{"@type":"Answer","text":"Nas duas primeiras semanas, nada. O degrau 0 é gratuito. A primeira lista de compras aparece na semana 3 e tem três itens."}},
+    {"@type":"Question","name":"Serve para mim se eu tenho mais de 30 anos?","acceptedAnswer":{"@type":"Answer","text":"Serve. A parte de estrutura óssea muda de tom, mas pele, sono, físico, cabelo e eye area funcionam igual em qualquer idade."}},
+    {"@type":"Question","name":"Tem protocolo de calvície ou de minoxidil?","acceptedAnswer":{"@type":"Answer","text":"Não. Ficou fora desta edição de propósito, porque exige avaliação médica individualizada."}},
+    {"@type":"Question","name":"As fotos de antes e depois são garantia de resultado?","acceptedAnswer":{"@type":"Answer","text":"Não. São casos individuais, em que mudaram ao mesmo tempo gordura corporal, retenção, pele, corte de cabelo e tempo. Resultado varia por pessoa e o guia é explícito sobre o que não muda em adulto."}},
+    {"@type":"Question","name":"Como recebo o arquivo?","acceptedAnswer":{"@type":"Answer","text":"Por email, logo após a confirmação do pagamento. É um PDF, abre em celular, tablet ou computador."}}
+  ]
+}
+</script>
+
+<style>
+/* build: macro=editorial-index-longscroll | nav=slim-rule | hero=display-left+watermark | proof=annotated-before-after | surface-break=paper-spread | footer=index
+   mood=technical-hard | palette=brand-extracted (ebook cover: #0A0A0B / #F4F2EF / #C8102E) | contrast: ink 17.4:1, ink-2 8.0:1, ink-3 5.4:1, red-bright 5.8:1, white-on-red 5.9:1, red-on-base 3.4:1 (UI only)
+   critique 1-5: show-dont-tell 4, philosophy 5, hierarchy 4, specificity 5, restraint 4, variety 4 */
+
+:root{
+  color-scheme: dark;
+
+  --base:#0A0A0B;
+  --base-2:#0F0F11;
+  --surface:#141416;
+  --surface-2:#1A1A1D;
+  --line:#26262B;
+  --line-2:#1D1D21;
+
+  --ink:#F2F0ED;
+  --ink-2:#A9A49E;
+  --ink-3:#8A857F;
+
+  --red:#C8102E;
+  --red-bright:#FF4256;
+  --red-wash:#1E0A0E;
+
+  --paper:#F4F2EF;
+  --paper-2:#E8E4DF;
+  --paper-ink:#14161A;
+  --paper-ink-2:#4A5058;
+  --paper-line:#D5D0C9;
+
+  --s50:4px; --s75:8px; --s100:12px; --s200:16px; --s300:24px;
+  --s400:32px; --s500:40px; --s600:48px; --s700:64px; --s800:88px;
+  --s900:120px; --s1000:168px;
+
+  --sans:"Archivo","Segoe UI",system-ui,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"Geist Mono","SFMono-Regular",ui-monospace,monospace;
+
+  --ease:cubic-bezier(.32,.72,0,1);
+  --measure:66ch;
+  --wrap:1180px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;overflow-x:clip}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;background:var(--base);color:var(--ink);
+  font-family:var(--serif);font-size:18px;line-height:1.62;
+  font-optical-sizing:auto;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:clip;
+}
+img{max-width:100%;display:block}
+[hidden]{display:none!important}
+::selection{background:var(--red);color:#fff}
+
+h1,h2,h3,h4,.brand,.btn,.eyebrow,.mono,th,.chap-n,.rung-n,.price b,.stat b{font-family:var(--sans)}
+h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.02em;line-height:1.04;text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:var(--s300)}
+.sec{padding-block:var(--s900);border-top:1px solid var(--line-2)}
+.sec:first-of-type{border-top:0}
+.sec-head{max-width:760px;margin-bottom:var(--s700)}
+.sec-head .lede{margin-top:var(--s300);font-size:19px;color:var(--ink-2);max-width:60ch}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:var(--s100);
+  font-family:var(--mono);font-size:11.5px;font-weight:500;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+  margin-bottom:var(--s300);
+}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--red);display:block}
+h2{font-size:clamp(30px,4.4vw,50px)}
+h3{font-size:20px;letter-spacing:-.01em}
+
+.skip{position:absolute;left:-9999px;top:0;background:var(--red);color:#fff;padding:12px 16px;z-index:99;font-family:var(--sans)}
+.skip:focus{left:8px;top:8px}
+:focus-visible{outline:2px solid var(--red-bright);outline-offset:3px;border-radius:2px}
+
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;z-index:50;background:rgba(10,10,11,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line-2)}
+.navrow{display:flex;align-items:center;gap:var(--s300);height:62px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.02em;font-size:15px;text-decoration:none;text-transform:uppercase}
+.brand img{width:22px;height:auto}
+.brand small{font-family:var(--mono);font-weight:400;font-size:11px;color:var(--red-bright);letter-spacing:.1em;text-transform:none}
+.navlinks{display:flex;gap:var(--s300);margin-left:auto;font-family:var(--sans);font-size:14px;font-weight:600}
+.navlinks a{color:var(--ink-2);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent;transition:color .2s var(--ease),border-color .2s var(--ease)}
+.navlinks a:hover{color:var(--ink)}
+.navlinks a[aria-current="true"]{color:var(--ink);border-color:var(--red)}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  font-weight:700;font-size:15px;letter-spacing:.01em;text-decoration:none;
+  padding:13px 22px;border:1px solid var(--red);background:var(--red);color:#fff;
+  border-radius:2px;cursor:pointer;
+  transition:transform .18s var(--ease),background-color .18s var(--ease),border-color .18s var(--ease);
+}
+.btn:hover{background:#A60D26;border-color:#A60D26}
+.btn:active{transform:translateY(1px)}
+.btn-lg{padding:17px 30px;font-size:17px}
+.btn-sm{padding:9px 16px;font-size:13px;margin-left:var(--s200)}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn-ghost:hover{background:var(--surface);border-color:var(--ink-3)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding-block:var(--s900) var(--s800)}
+.hero-mark{
+  position:absolute;right:-6%;top:-4%;width:min(620px,58vw);opacity:.055;pointer-events:none;
+  filter:grayscale(1);
+}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);
+  border:1px solid var(--line);padding:7px 13px;border-radius:2px;background:var(--base-2);
+}
+.hero-tag .dot{width:6px;height:6px;background:var(--red);border-radius:50%}
+h1{
+  margin-top:var(--s400);
+  font-size:clamp(40px,7.4vw,86px);font-weight:800;letter-spacing:-.035em;line-height:.98;
+  text-transform:uppercase;
+}
+h1 em{font-style:normal;color:var(--red-bright)}
+.hero-rule{width:96px;height:4px;background:var(--red);margin-top:var(--s400)}
+.hero-sub{margin-top:var(--s400);font-size:21px;line-height:1.55;color:var(--ink-2);max-width:56ch}
+.hero-cta{display:flex;flex-wrap:wrap;gap:var(--s200);align-items:center;margin-top:var(--s500)}
+.hero-note{font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;color:var(--ink-3)}
+
+.spec{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-2);
+  border:1px solid var(--line-2);margin:var(--s800) 0 0;
+}
+.spec>div{background:var(--base);padding:var(--s300) var(--s300) var(--s300)}
+.spec dt{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.spec dd{margin:8px 0 0;font-family:var(--sans);font-weight:700;font-size:23px;letter-spacing:-.02em}
+
+/* ---------- negative list ---------- */
+.deny{list-style:none;margin:0;padding:0;display:grid;gap:1px;background:var(--line-2);border-block:1px solid var(--line-2)}
+.deny li{background:var(--base);display:grid;grid-template-columns:auto 1fr;gap:var(--s300);padding:var(--s400) var(--s200) var(--s400) 0;align-items:start}
+.deny .num{font-family:var(--mono);font-size:12px;color:var(--red-bright);letter-spacing:.1em;padding-top:5px;min-width:34px}
+.deny b{font-family:var(--sans);font-weight:700;letter-spacing:-.01em;color:var(--ink)}
+.deny span{color:var(--ink-2);max-width:78ch}
+
+/* ---------- ladder ---------- */
+.ladder{display:grid;gap:1px;background:var(--line-2);border:1px solid var(--line-2)}
+.rung{background:var(--base);padding:var(--s400);display:grid;grid-template-columns:132px 1fr 210px;gap:var(--s400);align-items:start;position:relative}
+.rung::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--red);opacity:var(--w,.2)}
+.rung:nth-child(1){--w:.25}.rung:nth-child(2){--w:.5}.rung:nth-child(3){--w:.75}.rung:nth-child(4){--w:1}
+.rung-n{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);display:block}
+.rung h3{margin-top:10px}
+.rung p{color:var(--ink-2);font-size:17px}
+.rung-meta{display:grid;gap:7px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;color:var(--ink-3);text-transform:uppercase}
+.rung-meta span{display:block;border-left:2px solid var(--line);padding-left:10px}
+
+.rule-callout{margin-top:var(--s500);border:1px solid var(--line);border-left:3px solid var(--red);background:var(--surface);padding:var(--s400)}
+.rule-callout p{font-family:var(--sans);font-weight:700;font-size:21px;letter-spacing:-.015em;line-height:1.3}
+.rule-callout span{display:block;margin-top:var(--s200);font-family:var(--serif);font-weight:400;font-size:17px;color:var(--ink-2);letter-spacing:0;line-height:1.6}
+
+/* ---------- pull quote ---------- */
+.reveal-sec{padding-block:var(--s1000)}
+.reveal{font-family:var(--sans);font-weight:700;font-size:clamp(24px,3.4vw,40px);line-height:1.22;letter-spacing:-.025em;max-width:22ch;margin:0 auto;text-align:center}
+.reveal w{display:inline-block;opacity:.26;transition:opacity .5s var(--ease)}
+.js .reveal w.on{opacity:1}
+.reveal w.hi{color:var(--red-bright)}
+@media (prefers-reduced-motion:reduce){.reveal w{opacity:1!important;transition:none}}
+
+/* ---------- before / after ---------- */
+.ba-note{
+  display:flex;gap:var(--s200);align-items:flex-start;
+  border:1px solid var(--line);background:var(--surface);padding:var(--s300);margin-bottom:var(--s600);
+  font-size:15.5px;line-height:1.55;color:var(--ink-2);max-width:none;
+}
+.ba-note b{color:var(--ink);font-family:var(--sans);font-weight:700}
+.ba-toggle{
+  display:inline-flex;align-items:center;gap:10px;cursor:pointer;
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);
+  border:1px solid var(--line);padding:8px 13px;background:var(--base-2);margin-bottom:var(--s500);
+}
+.ba-toggle input{accent-color:var(--red);width:14px;height:14px;margin:0}
+
+.ba{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:var(--s600);align-items:start;padding-block:var(--s600);border-top:1px solid var(--line-2)}
+.ba:first-of-type{border-top:0;padding-top:0}
+.ba-pair{display:grid;grid-template-columns:1fr 1fr;gap:var(--s200)}
+.ba-shot{position:relative;margin:0;border:1px solid var(--line);background:var(--surface-2);overflow:hidden}
+.ba-shot img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;filter:saturate(.95)}
+.ba-tag{
+  position:absolute;left:0;top:0;z-index:3;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  background:rgba(10,10,11,.82);color:var(--ink-2);padding:6px 10px;backdrop-filter:blur(4px);
+}
+.is-after .ba-tag{background:var(--red);color:#fff}
+.ba-cap{margin-top:10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+
+.pin{
+  position:absolute;left:var(--x);top:var(--y);z-index:4;
+  width:26px;height:26px;margin:-13px 0 0 -13px;padding:0;
+  border-radius:50%;border:1.5px solid rgba(255,255,255,.92);
+  background:var(--red);color:#fff;
+  font-family:var(--mono);font-size:12px;font-weight:500;line-height:1;
+  display:grid;place-items:center;cursor:pointer;
+  box-shadow:0 0 0 2px rgba(10,10,11,.45),0 6px 16px -6px rgba(0,0,0,.9);
+  transition:transform .2s var(--ease),background-color .2s var(--ease),opacity .25s var(--ease);
+}
+.pin:hover,.pin.on{transform:scale(1.22);background:#E31739}
+.no-pins .pin{opacity:0;pointer-events:none}
+.pin::after{
+  content:"";position:absolute;inset:-7px;border-radius:50%;border:1px solid var(--red);
+  opacity:0;animation:ping 2.6s var(--ease) infinite;
+}
+.pin:nth-of-type(2)::after{animation-delay:.5s}
+.pin:nth-of-type(3)::after{animation-delay:1s}
+.pin:nth-of-type(4)::after{animation-delay:1.5s}
+@keyframes ping{0%{opacity:.75;transform:scale(.72)}70%,100%{opacity:0;transform:scale(1.25)}}
+@media (prefers-reduced-motion:reduce){.pin::after{animation:none}}
+
+.ba-side h3{font-size:17px;text-transform:uppercase;letter-spacing:.01em}
+.ba-view{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);display:block;margin-top:8px}
+.ba-legend{list-style:none;margin:var(--s400) 0 0;padding:0;display:grid;gap:1px;background:var(--line-2);border-block:1px solid var(--line-2)}
+.ba-legend li{background:var(--base);display:grid;grid-template-columns:auto 1fr;gap:var(--s200);padding:var(--s300) var(--s100) var(--s300) 0;transition:background-color .25s var(--ease)}
+.ba-legend li.on{background:var(--red-wash)}
+.ba-legend .n{
+  width:22px;height:22px;border-radius:50%;border:1px solid var(--red);color:var(--red-bright);
+  font-family:var(--mono);font-size:11px;display:grid;place-items:center;margin-top:2px;
+}
+.ba-legend li.on .n{background:var(--red);color:#fff;border-color:var(--red)}
+.ba-legend b{display:block;font-family:var(--sans);font-size:15px;font-weight:700;letter-spacing:-.005em}
+.ba-legend p{margin-top:5px;font-size:15px;line-height:1.5;color:var(--ink-2)}
+
+/* ---------- estrutura óssea ---------- */
+.figs{display:grid;gap:var(--s400);justify-items:center}
+.fig{margin:0;width:100%;max-width:800px;position:relative;border:1px solid var(--line);background:var(--surface);padding:var(--s400) var(--s300) var(--s300)}
+.fig svg{
+  display:block;width:100%;height:auto;
+  --fig-form:#26262B;--fig-line:#DAD7D3;--fig-accent:#FF4256;--fig-text:#B6B1AB;--fig-hair:#4E4E56;
+}
+.fig-tag{
+  position:absolute;left:0;top:0;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;background:var(--red);color:#fff;padding:5px 10px;
+}
+.fig figcaption{margin-top:var(--s200);padding-top:var(--s200);border-top:1px solid var(--line-2);font-size:14.5px;line-height:1.5;color:var(--ink-2)}
+.cats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line-2);border:1px solid var(--line-2);margin-top:var(--s600)}
+.cat{background:var(--base);padding:var(--s400);display:grid;align-content:start;gap:var(--s100)}
+.cat-n{font-family:var(--mono);font-size:12px;letter-spacing:.12em;color:var(--red-bright)}
+.cat h3{font-size:17px;text-transform:uppercase;letter-spacing:.02em}
+.cat p{color:var(--ink-2);font-size:16px;line-height:1.5}
+.cat-do{
+  margin-top:var(--s100);padding-top:var(--s200);border-top:1px solid var(--line-2);
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);
+}
+
+.chew{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:var(--s500);align-items:center;
+  margin-top:var(--s600);border:1px solid var(--line);border-left:3px solid var(--red);
+  background:var(--surface);padding:var(--s500);
+}
+.chew h3{font-size:22px;margin-bottom:var(--s200);letter-spacing:-.015em}
+.chew p{color:var(--ink-2);font-size:16.5px;line-height:1.55}
+.chew p+p{margin-top:var(--s200)}
+.chew-fig{background:var(--base-2);max-width:none;border-color:var(--line-2)}
+.chew-fig svg{--fig-form:#1C1C20;--fig-hair:#6E6E78;--fig-text:#C4BFB9}
+
+/* ---------- chapter index ---------- */
+.chaps{display:grid;gap:1px;background:var(--line-2);border-block:1px solid var(--line-2)}
+.chap{
+  background:var(--base);display:grid;grid-template-columns:96px minmax(180px,250px) minmax(0,1fr);
+  gap:var(--s400);padding:var(--s400) var(--s200) var(--s400) 0;align-items:start;
+  position:relative;transition:background-color .25s var(--ease)
+}
+.chap::before{content:"";position:absolute;left:0;top:0;bottom:0;width:0;background:var(--red);transition:width .25s var(--ease)}
+.chap:hover{background:var(--base-2)}
+.chap:hover::before{width:3px}
+.chap-n{font-family:var(--mono);font-size:12px;letter-spacing:.12em;color:var(--ink-3);padding-top:4px}
+.chap p{color:var(--ink-2);font-size:16.5px;line-height:1.55}
+.chap ul{list-style:none;margin:var(--s200) 0 0;padding:0;display:flex;flex-wrap:wrap;gap:7px}
+.chap ul li{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);border:1px solid var(--line);padding:4px 8px}
+
+/* ---------- paper spread ---------- */
+.paper-sec{background:var(--paper);color:var(--paper-ink);padding-block:var(--s900);position:relative}
+.paper-sec::before{content:"";position:absolute;inset:0 0 auto;height:5px;background:var(--red)}
+.paper-sec .eyebrow{color:#63686F}
+.paper-sec h2{color:var(--paper-ink)}
+.paper-sec .lede{color:var(--paper-ink-2)}
+.paper-head{display:flex;justify-content:space-between;align-items:flex-start;gap:var(--s400);margin-bottom:var(--s600)}
+.paper-head .sec-head{margin-bottom:0}
+.paper-mark{width:52px;opacity:.5;flex:none}
+.tablewrap{border:1px solid var(--paper-line);background:#fff;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:16px;min-width:540px}
+caption{text-align:left;padding:var(--s300) var(--s300) 0;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#63686F}
+th,td{padding:14px var(--s300);text-align:left;border-bottom:1px solid var(--paper-line)}
+th{font-family:var(--sans);font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#63686F;border-bottom-width:2px;border-bottom-color:var(--paper-ink)}
+tbody tr:nth-child(even){background:#FAF9F7}
+td:first-child{font-weight:600}
+tbody tr:last-child td{border-bottom:0}
+.paper-foot{display:flex;justify-content:space-between;gap:var(--s300);margin-top:var(--s300);font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#63686F}
+
+/* ---------- fit ---------- */
+.fit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1px;background:var(--line-2);border:1px solid var(--line-2)}
+.fit-card{background:var(--base);padding:var(--s500)}
+.fit-card h3{font-size:16px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:var(--s300);padding-bottom:var(--s200);border-bottom:2px solid var(--line)}
+.fit-card.yes h3{border-color:var(--red)}
+.fit-card ul{list-style:none;margin:0;padding:0;display:grid;gap:var(--s300)}
+.fit-card li{display:grid;grid-template-columns:20px 1fr;gap:var(--s200);font-size:16.5px;color:var(--ink-2);line-height:1.5}
+.fit-card svg{width:17px;height:17px;margin-top:4px}
+.fit-card.yes svg{color:var(--red-bright)}
+.fit-card.no svg{color:var(--ink-3)}
+
+/* ---------- myths ---------- */
+.myths{display:grid;gap:1px;background:var(--line-2);border:1px solid var(--line-2)}
+.myth{background:var(--base);padding:var(--s500);display:grid;grid-template-columns:minmax(220px,330px) minmax(0,1fr);gap:var(--s500);align-items:start}
+.myth q{font-family:var(--sans);font-weight:700;font-size:21px;line-height:1.24;letter-spacing:-.02em;color:var(--ink)}
+.verdict{display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--red-bright);border:1px solid var(--red);padding:5px 9px;margin-bottom:var(--s200)}
+.myth p{color:var(--ink-2);font-size:16.5px}
+
+/* ---------- offer ---------- */
+.offer-sec{background:var(--base-2)}
+.offer{
+  background:var(--paper);color:var(--paper-ink);border:1px solid var(--paper-2);
+  padding:var(--s600);position:relative;
+}
+.offer::before{content:"";position:absolute;inset:0 0 auto;height:5px;background:var(--red)}
+.offer .eyebrow{color:#63686F}
+.price{display:flex;align-items:baseline;gap:var(--s200);flex-wrap:wrap;margin-bottom:var(--s400);padding-bottom:var(--s400);border-bottom:1px solid var(--paper-line)}
+.price b{font-size:58px;font-weight:800;letter-spacing:-.04em;line-height:1}
+.price span{font-size:15px;color:var(--paper-ink-2)}
+.offer ul{list-style:none;margin:0 0 var(--s500);padding:0;display:grid;gap:var(--s200)}
+.offer li{display:grid;grid-template-columns:20px 1fr;gap:var(--s200);font-size:16.5px;line-height:1.5;color:#2C333B}
+.offer svg{width:17px;height:17px;margin-top:4px;color:var(--red)}
+.guarantee{margin-top:var(--s300);font-size:14.5px;line-height:1.55;color:var(--paper-ink-2)}
+.guarantee b{color:var(--paper-ink)}
+.offer-grid{display:grid;grid-template-columns:minmax(0,620px) minmax(0,1fr);gap:var(--s600);align-items:start}
+.offer-aside{display:grid;gap:var(--s300);align-content:start}
+.stat{border:1px solid var(--line);background:var(--surface);padding:var(--s300)}
+.stat b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em}
+.stat span{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+
+/* ---------- faq ---------- */
+.faq{border-top:1px solid var(--line-2);max-width:860px}
+details{border-bottom:1px solid var(--line-2)}
+summary{
+  list-style:none;cursor:pointer;padding:var(--s300) var(--s400) var(--s300) 0;position:relative;
+  font-family:var(--sans);font-weight:700;font-size:17.5px;letter-spacing:-.01em;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";position:absolute;right:6px;top:50%;width:11px;height:11px;margin-top:-7px;border-right:2px solid var(--ink-3);border-bottom:2px solid var(--ink-3);transform:rotate(45deg);transition:transform .22s var(--ease)}
+details[open] summary::after{transform:rotate(-135deg);border-color:var(--red-bright)}
+details p{padding:0 var(--s400) var(--s400) 0;color:var(--ink-2);font-size:16.5px;max-width:72ch}
+
+/* ---------- final ---------- */
+.final{text-align:center;padding-block:var(--s1000);border-top:1px solid var(--line-2);position:relative;overflow:hidden}
+.final h2{max-width:20ch;margin-inline:auto;text-transform:uppercase}
+.final p{margin-top:var(--s300);color:var(--ink-2);max-width:54ch;margin-inline:auto}
+.final .hero-cta{justify-content:center}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line-2);background:var(--base-2);padding-block:var(--s600);font-size:14.5px;color:var(--ink-3)}
+.foot-top{display:flex;justify-content:space-between;gap:var(--s400);flex-wrap:wrap;padding-bottom:var(--s400);border-bottom:1px solid var(--line-2)}
+.foot-brand{display:flex;align-items:center;gap:12px}
+.foot-brand img{width:30px;opacity:.85}
+.foot-brand p{font-family:var(--sans);font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:.02em;font-size:14px}
+.foot-brand small{display:block;font-family:var(--serif);font-weight:400;text-transform:none;letter-spacing:0;color:var(--ink-3);font-size:13.5px;margin-top:3px}
+.foot-links{display:flex;gap:var(--s300);flex-wrap:wrap;align-items:center}
+.foot-links a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent}
+.foot-links a:hover{color:var(--ink);border-color:var(--red)}
+.disclaimer{margin-top:var(--s400);font-size:13.5px;line-height:1.6;color:var(--ink-3)}
+.disclaimer b{color:var(--ink-2)}
+
+/* ---------- reveals ---------- */
+.js .rv{opacity:0;transform:translateY(16px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}}
+
+.sr{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+.ba-legend li div{min-width:0}
+
+/* ---------- responsive ---------- */
+@media (max-width:1020px){
+  .ba{grid-template-columns:minmax(0,1fr);gap:var(--s400)}
+  .offer-grid{grid-template-columns:minmax(0,1fr)}
+  .offer-aside{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:860px){
+  .rung{grid-template-columns:minmax(0,1fr);gap:var(--s200);padding-left:var(--s300)}
+  .rung-meta{display:flex;flex-wrap:wrap;gap:var(--s100) var(--s300);margin-top:var(--s100)}
+  .chap{grid-template-columns:70px minmax(0,1fr);gap:var(--s200) var(--s300)}
+  .chap-n{grid-row:1/3}
+  .myth{grid-template-columns:minmax(0,1fr);gap:var(--s300)}
+  .fit{grid-template-columns:minmax(0,1fr)}
+  .cats{grid-template-columns:minmax(0,1fr)}
+  .chew{grid-template-columns:minmax(0,1fr);gap:var(--s400);padding:var(--s400)}
+  .spec{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .navlinks{display:none}
+  .hero-mark{width:min(420px,80vw);right:-14%;opacity:.05}
+}
+@media (max-width:620px){
+  body{font-size:17px}
+  .sec{padding-block:var(--s800)}
+  .reveal-sec{padding-block:var(--s900)}
+  .wrap{padding-inline:var(--s200)}
+  .hero-sub{font-size:19px}
+  .offer,.fit-card,.myth{padding:var(--s400)}
+  .offer-aside{grid-template-columns:minmax(0,1fr)}
+  .hero-cta .btn{width:100%}
+  .ba-pair{gap:var(--s75)}
+  .fig{padding:var(--s400) var(--s100) var(--s200)}
+  .fig figcaption{font-size:13.5px}
+  .ba-legend p{font-size:14.5px}
+  .paper-head .paper-mark{display:none}
+  .price b{font-size:46px}
+  .pin{width:22px;height:22px;margin:-11px 0 0 -11px;font-size:10.5px}
+  .deny li{padding-block:var(--s300)}
+  .rung{padding:var(--s300)}
+  .fit-card h3,.ba-side h3{font-size:15px}
+  table{min-width:0;font-size:14.5px}
+  th,td{padding:12px var(--s100)}
+  caption{padding:var(--s200) var(--s200) 0}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<nav aria-label="Navegação principal">
+  <div class="wrap navrow">
+    <a class="brand" href="#top">
+      <img src="assets/mark-white.png" alt="" width="22" height="31" aria-hidden="true">
+      Método Hardmaxx <small>v2</small>
+    </a>
+    <div class="navlinks">
+      <a href="#escada">A escada</a>
+      <a href="#resultados">Antes e depois</a>
+      <a href="#estrutura">Estrutura óssea</a>
+      <a href="#conteudo">Conteúdo</a>
+      <a href="#prazos">Prazos</a>
+      <a href="#faq">Dúvidas</a>
+    </div>
+    <a class="btn btn-sm" href="#comprar">Comprar</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <header class="hero">
+    <img class="hero-mark" src="assets/mark-white.png" alt="" width="360" height="503" aria-hidden="true">
+    <div class="wrap">
+      <span class="hero-tag"><span class="dot"></span>Segunda edição &middot; 65 páginas</span>
+      <h1>Looksmaxing como<br>protocolo, <em>não</em> como<br>promessa</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-sub">Um guia técnico de aparência masculina organizado em quatro degraus de custo e risco: hábito, consumível, procedimento, cirurgia. Você começa pelo degrau que é gratuito, porque é onde está a maior parte do resultado.</p>
+      <div class="hero-cta">
+        <a class="btn btn-lg" href="#comprar">Comprar por R$ 20</a>
+        <a class="btn btn-lg btn-ghost" href="#resultados">Ver antes e depois</a>
+      </div>
+      <p class="hero-note" style="margin-top:var(--s300)">PDF para leitura imediata &middot; 7 dias para desistir e receber de volta</p>
+
+      <dl class="spec rv">
+        <div><dt>Extensão</dt><dd>65 páginas</dd></div>
+        <div><dt>Áreas cobertas</dt><dd>5 + sono</dd></div>
+        <div><dt>Plano de execução</dt><dd>90 dias</dd></div>
+        <div><dt>Protocolos fechados</dt><dd>6</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <section class="sec rv" aria-labelledby="nao">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Antes de qualquer coisa</span>
+        <h2 id="nao">Quatro coisas que este guia não faz</h2>
+        <p class="lede">Este bloco está aqui porque é o filtro mais rápido. Se você quer alguma das quatro, economize seu dinheiro e feche a página.</p>
+      </div>
+      <ul class="deny">
+        <li><span class="num">01</span><span><b>Não promete transformação em 30 dias.</b> Pele responde em 12 semanas. Cabelo em 6 meses. Físico em 12 a 24 meses. Qualquer prazo muito menor que isso está vendendo algo.</span></li>
+        <li><span class="num">02</span><span><b>Não vende harmonização como solução universal.</b> Preenchimento resolve volume e contorno. Não resolve proporção esquelética, e em excesso produz o rosto artificial que todo mundo identifica.</span></li>
+        <li><span class="num">03</span><span><b>Não trata calvície.</b> É assunto que exige acompanhamento médico individualizado e ficou deliberadamente fora desta edição.</span></li>
+        <li><span class="num">04</span><span><b>Não trata prática autolesiva como técnica.</b> Bonesmashing tem um capítulo, e o capítulo explica por que ele não é método e sim lesão com resultado imprevisível.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec rv" id="escada" aria-labelledby="escada-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">O eixo do método</span>
+        <h2 id="escada-t">A escada de quatro degraus</h2>
+        <p class="lede">Todo capítulo do livro segue a mesma estrutura. Ela existe para resolver o erro mais comum de quem começa: pular direto para o degrau 3 sem ter feito o degrau 0.</p>
+      </div>
+
+      <div class="ladder">
+        <article class="rung">
+          <div><span class="rung-n">Degrau 0</span><h3>Hábito</h3></div>
+          <p>Sono, respiração nasal, postura, gordura corporal, higiene. É o degrau que mais gente ignora e o que mais retorna por unidade de esforço. Sem ele, nenhum procedimento rende o que deveria.</p>
+          <div class="rung-meta"><span>Custo: R$ 0</span><span>Reversível: sim</span><span>Retorno: alto</span></div>
+        </article>
+        <article class="rung">
+          <div><span class="rung-n">Degrau 1</span><h3>Consumível</h3></div>
+          <p>Skincare, produto de cabelo, suplementação que corrige deficiência real, roupa que serve. Retorno moderado e previsível, desde que sustentado por meses e não por três semanas.</p>
+          <div class="rung-meta"><span>Custo: baixo, recorrente</span><span>Reversível: sim</span><span>Retorno: moderado</span></div>
+        </article>
+        <article class="rung">
+          <div><span class="rung-n">Degrau 2</span><h3>Procedimento</h3></div>
+          <p>Toxina botulínica, preenchimento, laser, microagulhamento, ortodontia. Geralmente reversível ou temporário. Exige profissional habilitado, e exige critério na escolha dele.</p>
+          <div class="rung-meta"><span>Custo: médio a alto</span><span>Reversível: em parte</span><span>Retorno: específico</span></div>
+        </article>
+        <article class="rung">
+          <div><span class="rung-n">Degrau 3</span><h3>Cirurgia</h3></div>
+          <p>Ortognática, blefaroplastia, implantes, rinoplastia. É o último degrau porque o erro aqui não tem desfazer. O guia traz as cinco perguntas que precisam estar respondidas antes de marcar consulta.</p>
+          <div class="rung-meta"><span>Custo: alto</span><span>Reversível: não</span><span>Risco: real</span></div>
+        </article>
+      </div>
+
+      <div class="rule-callout">
+        <p>Não suba de degrau enquanto o anterior não estiver esgotado.
+        <span>Não faz sentido gastar com preenchimento de olheira dormindo cinco horas por noite. Não faz sentido pensar em implante de mandíbula com 22% de gordura corporal.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec reveal-sec rv" aria-label="Resumo do método">
+    <div class="wrap">
+      <p class="reveal" id="reveal">Os primeiros 80% vêm de sono, gordura corporal, pele, corte de cabelo e roupa que serve. Os últimos 5% custam muito dinheiro, muito risco, e quase ninguém além de você percebe. <i class="hi-line">Saber onde parar faz parte do método.</i></p>
+    </div>
+  </section>
+
+  <section class="sec rv" id="resultados" aria-labelledby="res-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Prova visual</span>
+        <h2 id="res-t">Antes e depois, lidos região por região</h2>
+        <p class="lede">Foto de antes e depois sem leitura é propaganda. Cada marcador abaixo aponta uma região específica do rosto e diz o que mudou ali, o que produz aquela mudança e o que continua sendo osso que ninguém move com hábito.</p>
+      </div>
+
+      <label class="ba-toggle" for="pins">
+        <input type="checkbox" id="pins" checked>
+        Mostrar marcadores nas fotos
+      </label>
+
+      <article class="ba" data-case="1">
+        <div class="ba-pair">
+          <figure class="ba-shot">
+            <span class="ba-tag">Antes</span>
+            <img src="assets/case1-antes.jpg" width="560" height="700" loading="lazy" decoding="async" alt="Perfil direito antes: terço inferior mais cheio, contorno entre mandíbula e pescoço pouco definido.">
+          </figure>
+          <figure class="ba-shot is-after">
+            <span class="ba-tag">Depois</span>
+            <img src="assets/case1-depois.jpg" width="560" height="700" loading="lazy" decoding="async" alt="Perfil direito depois: borda da mandíbula visível do gônio até o mento, com quatro marcadores numerados sobre as regiões descritas ao lado.">
+            <button class="pin" style="--x:30%;--y:31%" data-t="c1-1" aria-describedby="c1-1"><span aria-hidden="true">1</span><span class="sr">Arco supraciliar</span></button>
+            <button class="pin" style="--x:72%;--y:84%" data-t="c1-2" aria-describedby="c1-2"><span aria-hidden="true">2</span><span class="sr">Ângulo gonial</span></button>
+            <button class="pin" style="--x:13%;--y:83%" data-t="c1-3" aria-describedby="c1-3"><span aria-hidden="true">3</span><span class="sr">Projeção do queixo</span></button>
+            <button class="pin" style="--x:40%;--y:89%" data-t="c1-4" aria-describedby="c1-4"><span aria-hidden="true">4</span><span class="sr">Ângulo cervicomental</span></button>
+          </figure>
+        </div>
+        <div class="ba-side">
+          <h3>Caso 1</h3>
+          <span class="ba-view">Perfil direito &middot; mesma escala de cabeça nas duas fotos</span>
+          <ol class="ba-legend">
+            <li id="c1-1"><span class="n">1</span><div><b>Arco supraciliar</b><p>A borda óssea acima do olho aparece porque perdeu o edema que a cobria. O relevo já existia. O que mudou foi a camada de água e gordura em cima dele, e isso é sono e sal, capítulo 1 e capítulo 6.</p></div></li>
+            <li id="c1-2"><span class="n">2</span><div><b>Ângulo gonial</b><p>O gônio é o canto de trás da mandíbula. Ele fica legível quando cai a gordura do terço inferior e o masseter tem tônus. Ângulo ósseo não se cria em adulto, se revela.</p></div></li>
+            <li id="c1-3"><span class="n">3</span><div><b>Projeção do queixo</b><p>O mento fecha a linha do perfil. Parte do ganho aqui é real perda de gordura submentual, parte é postura de cabeça e posição de língua em repouso. A parte esquelética é conversa de ortodontista, capítulo 3.</p></div></li>
+            <li id="c1-4"><span class="n">4</span><div><b>Ângulo cervicomental</b><p>A dobra entre mandíbula e pescoço é o que a maioria chama de jawline. É o marcador mais sensível a gordura corporal e retenção de líquido, e o primeiro a voltar se os dois voltarem.</p></div></li>
+          </ol>
+        </div>
+      </article>
+
+      <article class="ba" data-case="2">
+        <div class="ba-pair">
+          <figure class="ba-shot">
+            <span class="ba-tag">Antes</span>
+            <img src="assets/case2-antes.jpg" width="560" height="700" loading="lazy" decoding="async" alt="Vista frontal antes: terço médio mais cheio e contorno do terço inferior pouco marcado.">
+          </figure>
+          <figure class="ba-shot is-after">
+            <span class="ba-tag">Depois</span>
+            <img src="assets/case2-depois.jpg" width="560" height="700" loading="lazy" decoding="async" alt="Vista frontal depois: relevo de bochecha e contorno da mandíbula mais definidos, com quatro marcadores numerados sobre as regiões descritas ao lado.">
+            <button class="pin" style="--x:36%;--y:42%" data-t="c2-1" aria-describedby="c2-1"><span aria-hidden="true">1</span><span class="sr">Arco supraciliar e eye area</span></button>
+            <button class="pin" style="--x:66%;--y:57%" data-t="c2-2" aria-describedby="c2-2"><span aria-hidden="true">2</span><span class="sr">Terço médio</span></button>
+            <button class="pin" style="--x:27%;--y:72%" data-t="c2-3" aria-describedby="c2-3"><span aria-hidden="true">3</span><span class="sr">Gônios na frontal</span></button>
+            <button class="pin" style="--x:47%;--y:81%" data-t="c2-4" aria-describedby="c2-4"><span aria-hidden="true">4</span><span class="sr">Terço inferior e pele</span></button>
+          </figure>
+        </div>
+        <div class="ba-side">
+          <h3>Caso 2</h3>
+          <span class="ba-view">Frontal &middot; mesma escala de cabeça nas duas fotos</span>
+          <ol class="ba-legend">
+            <li id="c2-1"><span class="n">1</span><div><b>Arco supraciliar e eye area</b><p>Menos inchaço periorbital muda a sombra da órbita inteira. O olhar fecha, a sobrancelha ganha linha, e nada disso é osso novo. É o capítulo 1 junto com o capítulo 6.</p></div></li>
+            <li id="c2-2"><span class="n">2</span><div><b>Terço médio</b><p>O relevo do malar aparece quando a gordura subcutânea da bochecha diminui. Na frontal é a região que mais responde a composição corporal, e a que mais some quando ela volta.</p></div></li>
+            <li id="c2-3"><span class="n">3</span><div><b>Gônios na frontal</b><p>Na vista de frente, o gônio define a largura do terço inferior. Largura óssea é dada. O que muda é quanto dela fica visível por baixo de gordura e retenção.</p></div></li>
+            <li id="c2-4"><span class="n">4</span><div><b>Terço inferior e pele</b><p>Contorno de mandíbula mais legível, textura e vermelhidão menores. Pele é o capítulo 2, e é a área onde a mudança leva 12 semanas para aparecer em foto.</p></div></li>
+          </ol>
+        </div>
+      </article>
+
+      <div class="ba-note">
+        <p><b>Como ler essas fotos.</b> São casos individuais, não média e não garantia. Nas duas comparações três coisas mudaram ao mesmo tempo: gordura corporal, retenção de líquido e tempo. Osso adulto não remodela com hábito, e o capítulo 3 é explícito sobre isso. O que o protocolo faz é tirar o que estava cobrindo a estrutura que já existe, e somar pele, cabelo, postura e enquadramento. Quem tem crescimento em curso soma também o efeito da idade, que não é mérito de protocolo nenhum. Tratamento das imagens: recorte e escala para a cabeça ficar do mesmo tamanho nos dois lados, e o mesmo ajuste de cor aplicado às duas fotos do par. Sem retoque de traço, sem filtro de rosto.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec rv" id="estrutura" aria-labelledby="est-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Novo nesta edição &middot; Parte II</span>
+        <h2 id="est-t">Estrutura óssea, região por região</h2>
+        <p class="lede">Arco supraciliar, zigomático, rebordo infraorbital, maxila, corpo da mandíbula, ramo e gônio. O que cada região é, como se avalia em foto, o que nela é osso fechado e o que é só o que está por cima. Treze páginas novas, com as duas leituras que decidem tudo: perfil e frontal.</p>
+      </div>
+
+      <div class="figs">
+        <figure class="fig">
+          <span class="fig-tag">Perfil</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 430" aria-labelledby="figside-t">
+  <title id="figside-t">Perfil lateral com as referências estruturais marcadas</title>
+  <g transform="translate(150,0)">
+    <path fill="var(--fig-form,#E3E3E3)" d="M206 40 C 162 41, 130 62, 116 102 C 109 124, 104 146, 101 168 C 100 176, 97 180, 98 184
+      C 103 189, 112 192, 113 198 C 107 214, 98 228, 90 242 C 80 256, 64 262, 62 268 C 60 274, 76 277, 90 281
+      C 96 283, 100 285, 100 289 C 94 293, 89 297, 89 302 C 89 307, 95 309, 93 314 C 91 319, 95 323, 97 327
+      C 101 333, 104 337, 105 343 C 98 350, 93 356, 94 364 C 95 372, 99 377, 104 381
+      C 140 390, 190 384, 222 368 C 240 359, 250 348, 254 334 C 259 316, 262 300, 264 286
+      C 268 258, 274 240, 280 226 C 292 200, 300 168, 296 134 C 289 76, 256 40, 206 40 Z"/>
+    <path fill="none" stroke="var(--fig-line,#111)" stroke-width="1.6" d="M105 381 C 128 392, 190 392, 236 372"/>
+    
+    <path fill="none" stroke="var(--fig-accent,#C8102E)" stroke-width="1.3" stroke-dasharray="5 4" d="M60 270 L 98 372"/>
+    <path fill="none" stroke="var(--fig-line,#111)" stroke-width="1" d="M254 334 L 268 280 M254 334 L 176 370" stroke-dasharray="4 3"/>
+    <path fill="none" stroke="var(--fig-line,#111)" stroke-width="1" d="M243 306 a 40 40 0 0 0 8 -22"/>
+    <path fill="none" stroke="var(--fig-line,#111)" stroke-width="1" stroke-dasharray="4 3" d="M118 388 L 196 374 M118 388 L 132 430"/>
+    <g fill="var(--fig-accent,#C8102E)">
+      <circle cx="113" cy="120" r="4.2"/><circle cx="99" cy="181" r="4.2"/><circle cx="113" cy="199" r="4.2"/>
+      <circle cx="100" cy="289" r="4.2"/><circle cx="94" cy="364" r="4.2"/>
+      <circle cx="262" cy="288" r="4.2"/><circle cx="254" cy="334" r="4.2"/>
+    </g>
+  </g>
+  <g stroke="var(--fig-hair,#9A9A9A)" stroke-width=".9" fill="none">
+    <path d="M140 92 L 263 120"/>
+    <path d="M140 150 L 249 181"/>
+    <path d="M140 196 L 263 199"/>
+    <path d="M140 262 L 250 289"/>
+    <path d="M140 352 L 244 364"/>
+    <path d="M520 248 L 412 288"/>
+    <path d="M520 318 L 404 334"/>
+    <path d="M520 392 L 268 390"/>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="10.5" fill="var(--fig-text,#111)">
+    <g text-anchor="end">
+      <text x="134" y="95">Testa com leve inclinação</text>
+      <text x="134" y="153">Arco supraciliar projetado</text>
+      <text x="134" y="199">Nasion fundo</text>
+      <text x="134" y="265">Maxila projetada</text>
+      <text x="134" y="355">Mento à frente</text>
+    </g>
+    <g text-anchor="start">
+      <text x="526" y="251">Ramo alto</text>
+      <text x="526" y="321">Ângulo gonial marcado</text>
+      <text x="526" y="395">Ângulo cervicomental limpo</text>
+    </g>
+  </g>
+  <text x="20" y="424" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="1.2" fill="var(--fig-accent,#C8102E)">LINHA ESTÉTICA</text>
+</svg>
+          <figcaption>As referências que a Parte II ensina a ler no perfil, com a linha estética traçada da ponta do nariz ao pogônio.</figcaption>
+        </figure>
+        <figure class="fig">
+          <span class="fig-tag">Frontal</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 430" aria-labelledby="figfront-t">
+  <title id="figfront-t">Vista frontal com as larguras e alturas de referência marcadas</title>
+  <g transform="translate(140,10)">
+    <path fill="var(--fig-form,#E3E3E3)" d="M190 28 C 142 28, 108 58, 102 108 C 99 136, 96 162, 96 186 C 96 214, 102 242, 114 268
+      C 120 281, 124 288, 128 298 C 140 328, 164 346, 190 348 C 216 346, 240 328, 252 298
+      C 256 288, 260 281, 266 268 C 278 242, 284 214, 284 186 C 284 162, 281 136, 278 108
+      C 272 58, 238 28, 190 28 Z"/>
+    <path fill="none" stroke="var(--fig-line,#111)" stroke-width="1.5" d="M128 298 C 140 330, 164 346, 190 348 C 216 346, 240 330, 252 298"/>
+    <g fill="none" stroke="var(--fig-accent,#C8102E)" stroke-width="1.6">
+      <path d="M96 186 L 284 186 M96 179 L 96 193 M284 179 L 284 193"/>
+      <path d="M128 298 L 252 298 M128 291 L 128 305 M252 291 L 252 305"/>
+    </g>
+    <g fill="none" stroke="var(--fig-line,#111)" stroke-width="2.2" stroke-linecap="round">
+      <path d="M124 158 C 142 146, 164 146, 176 153"/>
+      <path d="M204 153 C 216 146, 238 146, 256 158"/>
+    </g>
+    <g fill="none" stroke="var(--fig-line,#111)" stroke-width="1.1" stroke-dasharray="4 3">
+      <path d="M126 178 L 178 172"/>
+      <path d="M202 172 L 254 178"/>
+    </g>
+    <g fill="none" stroke="var(--fig-hair,#9A9A9A)" stroke-width=".9" stroke-dasharray="3 3">
+      <path d="M78 108 L 300 108"/>
+      <path d="M78 166 L 300 166"/>
+      <path d="M78 258 L 300 258"/>
+      <path d="M78 352 L 300 352"/>
+    </g>
+    <g fill="var(--fig-accent,#C8102E)">
+      <circle cx="132" cy="216" r="4.2"/><circle cx="248" cy="216" r="4.2"/>
+    </g>
+    <path fill="none" stroke="var(--fig-line,#111)" stroke-width="1.1" d="M112 200 C 126 218, 142 226, 158 226 M268 200 C 254 218, 238 226, 222 226"/>
+  </g>
+  <g stroke="var(--fig-hair,#9A9A9A)" stroke-width=".9" fill="none">
+    <path d="M128 148 L 258 160"/>
+    <path d="M128 175 L 266 172"/>
+    <path d="M128 229 L 272 226"/>
+    <path d="M540 196 L 424 196"/>
+    <path d="M540 308 L 392 308"/>
+    <path d="M540 118 L 440 118"/>
+    <path d="M540 362 L 440 362"/>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="10.5" fill="var(--fig-text,#111)">
+    <g text-anchor="end">
+      <text x="122" y="151">Sobrancelha baixa</text>
+      <text x="122" y="178">Canthal tilt positivo</text>
+      <text x="122" y="232">Zigomático alto</text>
+    </g>
+    <g text-anchor="start">
+      <text x="546" y="121">Terços faciais iguais</text>
+      <text x="546" y="199">Largura bizigomática</text>
+      <text x="546" y="311">Largura bigonial</text>
+      <text x="546" y="365">Terço inferior definido</text>
+    </g>
+  </g>
+</svg>
+          <figcaption>Na frontal o que importa é proporção e largura. A comparação central é entre a largura bizigomática e a bigonial.</figcaption>
+        </figure>
+      </div>
+
+      <div class="cats">
+        <article class="cat">
+          <span class="cat-n">01</span>
+          <h3>Dado</h3>
+          <p>Dimensão esquelética já fechada: largura bizigomática, altura do ramo, comprimento do corpo mandibular, projeção da maxila. Hábito nenhum move isso em adulto.</p>
+          <span class="cat-do">Aceitar, ou sentar com ortodontista e cirurgião</span>
+        </article>
+        <article class="cat">
+          <span class="cat-n">02</span>
+          <h3>Coberto</h3>
+          <p>Estrutura que já existe e está debaixo de gordura e retenção: contorno de mandíbula, gônio, relevo do zigomático, rebordo infraorbital. É a maior parte do que as pessoas chamam de estrutura.</p>
+          <span class="cat-do">Degrau 0, e é de graça</span>
+        </article>
+        <article class="cat">
+          <span class="cat-n">03</span>
+          <h3>Modificável</h3>
+          <p>O que responde a carga e função em qualquer idade: densidade e espessura cortical, a inserção do masseter no gônio, volume muscular, posição dentária, postura de cabeça.</p>
+          <span class="cat-do">Carga mastigatória, postura, ortodontia</span>
+        </article>
+      </div>
+
+      <div class="chew">
+        <div class="chew-txt">
+          <span class="eyebrow">Parte III</span>
+          <h3>Hard chewing, e o que ele faz na célula</h3>
+          <p>Carga mecânica deforma a matriz óssea, o fluido dos canalículos se move, e o osteócito lê esse cisalhamento. A resposta dele é derrubar a esclerostina, que é o freio do osteoblasto, e derrubar o RANKL, que é o recrutador do osteoclasto. A célula que constrói acelera e a que desmonta desacelera ao mesmo tempo.</p>
+          <p>O masseter se insere exatamente no ângulo da mandíbula, o que faz dela o único osso do rosto que você carrega de propósito. A Parte III traz a cadeia inteira, a faixa de carga que constrói e a que machuca, o protocolo de doze semanas e a tabela de prazo por tipo de ganho: músculo em semanas, superfície óssea em meses, dimensão esquelética nunca sem ortodontia ou cirurgia.</p>
+        </div>
+        <figure class="fig chew-fig">
+          <span class="fig-tag">Mecanotransdução</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 320" aria-labelledby="figmec-t">
+  <title id="figmec-t">Da mordida ao osteoblasto: a cadeia da mecanotransdução</title>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-hair,#8A8A8A)"/>
+    </marker>
+  </defs>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="10.5" fill="var(--fig-text,#111)" text-anchor="middle">
+
+    <g fill="var(--fig-form,#EFEFEF)" stroke="var(--fig-hair,#C9C9C9)" stroke-width="1">
+      <rect x="14" y="16" width="140" height="40"/>
+      <rect x="178" y="16" width="140" height="40"/>
+      <rect x="342" y="16" width="140" height="40"/>
+      <rect x="506" y="16" width="140" height="40"/>
+    </g>
+    <text x="84" y="34">Mordida com</text><text x="84" y="47">carga alta</text>
+    <text x="248" y="34">Deformação da</text><text x="248" y="47">matriz óssea</text>
+    <text x="412" y="34">Fluxo de fluido</text><text x="412" y="47">no canalículo</text>
+    <text x="576" y="34">Osteócito lê</text><text x="576" y="47">o cisalhamento</text>
+
+    <g fill="none" stroke="var(--fig-hair,#8A8A8A)" stroke-width="1.2" marker-end="url(#ar)">
+      <path d="M156 36 L 174 36"/>
+      <path d="M320 36 L 338 36"/>
+      <path d="M484 36 L 502 36"/>
+      <path d="M576 58 L 576 78 L 200 78 L 200 108"/>
+      <path d="M576 58 L 576 108"/>
+      <path d="M200 160 L 200 188"/>
+      <path d="M576 160 L 576 188"/>
+      <path d="M200 240 L 200 262 L 330 262 L 330 274"/>
+      <path d="M576 240 L 576 262 L 330 262"/>
+    </g>
+
+    <g fill="var(--fig-form,#EFEFEF)" stroke="var(--fig-hair,#C9C9C9)" stroke-width="1">
+      <rect x="86" y="110" width="228" height="48"/>
+      <rect x="462" y="110" width="228" height="48"/>
+      <rect x="86" y="190" width="228" height="48"/>
+      <rect x="462" y="190" width="228" height="48"/>
+    </g>
+    <text x="200" y="130">Esclerostina cai,</text><text x="200" y="145">a via Wnt fica livre</text>
+    <text x="576" y="130">RANKL cai em relação</text><text x="576" y="145">à osteoprotegerina</text>
+    <text x="200" y="210" font-weight="bold">Osteoblasto</text><text x="200" y="225">deposita mais matriz</text>
+    <text x="576" y="210" font-weight="bold">Osteoclasto</text><text x="576" y="225">reabsorve menos</text>
+
+    <rect x="170" y="276" width="320" height="36" fill="none" stroke="var(--fig-accent,#C8102E)" stroke-width="1.6"/>
+    <text x="330" y="299" font-weight="bold" fill="var(--fig-accent,#C8102E)">Saldo: osso depositado onde a carga passou</text>
+  </g>
+</svg>
+          <figcaption>Da mordida ao osteoblasto, com os nomes que a Parte III usa.</figcaption>
+        </figure>
+      </div>
+</div>
+    </div>
+  </section>
+
+  <section class="sec rv" id="conteudo" aria-labelledby="conteudo-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Oito capítulos e duas partes</span>
+        <h2 id="conteudo-t">O que tem dentro</h2>
+        <p class="lede">Cada capítulo termina em um protocolo consolidado: a lista do que fazer, na ordem, sem precisar reler o capítulo.</p>
+      </div>
+      <div class="chaps">
+        <article class="chap">
+          <span class="chap-n">CAP 01</span>
+          <div><h3>Eye area</h3><ul><li>olheiras</li><li>inchaço periorbital</li><li>sobrancelha</li><li>cirurgia</li></ul></div>
+          <p>Canthal tilt, hooding, exposição escleral, projeção infraorbital. A tabela que separa o que é estrutural do que responde a hábito, e por que sombra de projeção rasa não é olheira de pigmento.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">CAP 02</span>
+          <div><h3>Pele</h3><ul><li>tretinoína</li><li>barreira</li><li>cicatriz</li><li>FPS</li></ul></div>
+          <p>Menos produtos, mais tempo. O combo universal de três itens, a base mínima em volta dele, quais ativos não se misturam, e protocolo de acne separado por gravidade.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">CAP 03</span>
+          <div><h3>Estrutura óssea</h3><ul><li>mewing</li><li>ângulo gonial</li><li>expansão</li><li>ortognática</li></ul></div>
+          <p>O que realmente muda o rosto adulto: gordura corporal, retenção de líquido, respiração nasal, postura cervical, masseter. E onde a conversa passa a ser de ortodontista ou cirurgião.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">CAP 04</span>
+          <div><h3>Cabelo</h3><ul><li>curvatura</li><li>corte</li><li>styling</li><li>barba</li></ul></div>
+          <p>Conheça a curvatura e a espessura antes de comprar qualquer coisa. Corte por formato de rosto, e o vocabulário exato para pedir ao barbeiro o que você quer sem sair com outra coisa.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">CAP 05</span>
+          <div><h3>Físico</h3><ul><li>prioridade</li><li>nutrição</li><li>postura</li><li>frame</li></ul></div>
+          <p>O que a silhueta comunica, prioridade de treino por retorno visual, cutting e bulking decididos por média semanal de peso, e a auditoria de guarda roupa pelo critério da costura do ombro.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">CAP 06</span>
+          <div><h3>Sono e hormônio</h3><ul><li>protocolo</li><li>apneia</li><li>cortisol</li><li>exames</li></ul></div>
+          <p>Por que sono é a variável central: mexe em olheira, inchaço, pele, hormônio e composição corporal ao mesmo tempo. Os sinais que indicam apneia e não falta de disciplina.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">CAP 07</span>
+          <div><h3>Mitos e armadilhas</h3><ul><li>bonesmashing</li><li>gua sha</li><li>exercício facial</li><li>TDC</li></ul></div>
+          <p>Metade do ganho vem de não fazer coisa errada. Doze mitos desmontados, as quatro armadilhas de percurso, e a lista de sinais de quando o problema deixou de ser estético.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">PARTE II</span>
+          <div><h3>Estrutura óssea em detalhe</h3><ul><li>mapa ósseo</li><li>perfil e frontal</li><li>carga mastigatória</li><li>suplementos</li></ul></div>
+          <p>As seis regiões do esqueleto facial, as referências de leitura do perfil e da frontal, o protocolo de mastigação em quatro fases, os nutrientes que sustentam osso e por que bonesmashing continua fora.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">PARTE III</span>
+          <div><h3>Hard chewing</h3><ul><li>mecanotransdução</li><li>osteoblasto</li><li>mecanostato</li><li>12 semanas</li></ul></div>
+          <p>A cadeia da mordida até a célula que constrói osso, a faixa de carga que serve e a que machuca, o protocolo de doze semanas com progressão e deload, e a tabela de prazo por tipo de ganho.</p>
+        </article>
+        <article class="chap">
+          <span class="chap-n">CAP 08</span>
+          <div><h3>Plano de 90 dias</h3><ul><li>linha de base</li><li>semana a semana</li><li>ajuste</li><li>manutenção</li></ul></div>
+          <p>Tudo em ordem de execução. Semana 0 de linha de base, duas semanas sem comprar nada, primeiras compras na semana 3, foto de controle no dia 30, avaliação real no dia 90.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="paper-sec rv" id="prazos" aria-labelledby="prazos-t">
+    <div class="wrap">
+      <div class="paper-head">
+        <div class="sec-head">
+          <span class="eyebrow">Extraído do capítulo 8</span>
+          <h2 id="prazos-t">A tabela de expectativa realista</h2>
+          <p class="lede">Esta tabela está no livro e é a página que mais gente fotografa. Ela existe para você não desistir na semana 6 achando que nada funcionou.</p>
+        </div>
+        <img class="paper-mark" src="assets/mark-ink.png" alt="" width="52" height="73" aria-hidden="true">
+      </div>
+      <div class="tablewrap">
+        <table>
+          <caption>Prazos por área</caption>
+          <thead><tr><th scope="col">Área</th><th scope="col">Primeiros sinais</th><th scope="col">Resultado consolidado</th></tr></thead>
+          <tbody>
+            <tr><td>Inchaço facial</td><td>3 a 7 dias</td><td>4 semanas</td></tr>
+            <tr><td>Postura e perfil</td><td>4 semanas</td><td>3 a 6 meses</td></tr>
+            <tr><td>Pele, textura e acne</td><td>8 a 12 semanas</td><td>6 meses</td></tr>
+            <tr><td>Marcas pós inflamatórias</td><td>3 meses</td><td>6 a 12 meses</td></tr>
+            <tr><td>Cabelo</td><td>imediato no corte</td><td>6 meses</td></tr>
+            <tr><td>Gordura corporal</td><td>4 semanas</td><td>3 a 6 meses</td></tr>
+            <tr><td>Massa muscular visível</td><td>3 meses</td><td>12 a 24 meses</td></tr>
+            <tr><td>Ortodontia</td><td>6 meses</td><td>1 a 3 anos</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="paper-foot"><span>Método Hardmaxx v2 &middot; capítulo 8</span><span>pág. 44</span></div>
+    </div>
+  </section>
+
+  <section class="sec rv" aria-labelledby="fit-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Adequação</span>
+        <h2 id="fit-t">Para quem serve e para quem não serve</h2>
+      </div>
+      <div class="fit">
+        <div class="fit-card yes">
+          <h3>Serve se você</h3>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Já gastou dinheiro em produto sem critério e quer parar de fazer isso</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Está perdido entre dez rotinas de skincare contraditórias do YouTube</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Está considerando um procedimento e quer saber o que vem antes dele</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Aceita medir com foto padronizada uma vez por mês e executar 12 semanas</span></li>
+          </ul>
+        </div>
+        <div class="fit-card no">
+          <h3>Não serve se você</h3>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Quer resultado visível em duas semanas</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Procura prescrição de medicamento ou dose sem passar por médico</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Quer protocolo de calvície, que ficou fora desta edição de propósito</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Checa a aparência dezenas de vezes por dia e já evita sair por causa disso. Nesse caso o capítulo 7 aponta o caminho, e ele não é um e-book.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec rv" aria-labelledby="mitos-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Capítulo 7, amostra</span>
+        <h2 id="mitos-t">Três dos mitos que o livro desmonta</h2>
+        <p class="lede">Não por ceticismo decorativo. Cada um desses tem uma rota alternativa descrita em outro capítulo, com risco controlado.</p>
+      </div>
+      <div class="myths">
+        <article class="myth">
+          <q>Bonesmashing deixa a mandíbula marcada.</q>
+          <div><span class="verdict">Não é técnica, é lesão</span><p>Remodelação óssea responde a carga distribuída e progressiva, não a impacto traumático. O tecido que se forma em resposta a trauma se deposita onde a lesão foi, na quantidade que ela gerou, no formato que a cicatrização produzir. Ninguém controla isso. Os resultados possíveis são, em ordem de probabilidade: nada, assimetria permanente, ou dano.</p></div>
+        </article>
+        <article class="myth">
+          <q>Mewing muda o esqueleto do adulto.</q>
+          <div><span class="verdict">Boa prática, efeito exagerado</span><p>Postura correta de língua e respiração nasal são hábito válido e estão no degrau 0. Remodelação óssea em adulto por pressão de língua não acontece. E pressão forte não acelera nada: pode inclinar dentes e criar problema ortodôntico.</p></div>
+        </article>
+        <article class="myth">
+          <q>Suplemento X faz crescer cabelo e barba.</q>
+          <div><span class="verdict">Corrige deficiência, não cria excedente</span><p>Se você não tem a deficiência, o suplemento não faz nada. Faz mais sentido verificar com exame do que comprar às cegas. A mesma lógica vale para o que se vende como booster hormonal.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec offer-sec rv" id="comprar" aria-labelledby="comprar-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">A oferta</span>
+        <h2 id="comprar-t">Método Hardmaxx v2, em PDF</h2>
+      </div>
+      <div class="offer-grid">
+        <div class="offer">
+          <span class="eyebrow">Pagamento único</span>
+          <div class="price"><b>R$ 20</b><span>à vista no Pix ou no cartão</span></div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>65 páginas, 8 capítulos e a Parte II de estrutura óssea</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Protocolo fotográfico de 5 ângulos para medir sua linha de base</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Plano de 90 dias semana a semana, com o que comprar e quando</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Acesso ao arquivo logo após a confirmação do pagamento</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 13l5 5L20 6"/></svg><span>Atualizações da segunda edição incluídas, sem cobrança nova</span></li>
+          </ul>
+          <a class="btn btn-lg" style="width:100%" href="https://pay.kiwify.com.br/bQn1LjJ" target="_blank" rel="noopener">Comprar o guia agora</a>
+          <p class="guarantee"><b>7 dias para desistir.</b> Compra online no Brasil tem direito de arrependimento por lei. Se você abrir o arquivo e concluir que não é para você, responda o email da compra dentro de 7 dias e o valor volta integral, sem precisar justificar.</p>
+        </div>
+        <div class="offer-aside">
+          <div class="stat"><b>R$ 0</b><span>Custo das duas primeiras semanas</span></div>
+          <div class="stat"><b>3 itens</b><span>Primeira lista de compras, semana 3</span></div>
+          <div class="stat"><b>90 dias</b><span>Até a avaliação que vale</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec rv" id="faq" aria-labelledby="faq-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Dúvidas</span>
+        <h2 id="faq-t">Antes de comprar</h2>
+      </div>
+      <div class="faq">
+        <details open><summary>Isto substitui dermatologista ou ortodontista?</summary><p>Não, e o livro diz isso na segunda página. O material é informativo. Medicamentos, procedimentos estéticos e cirurgias citados exigem acompanhamento de profissional habilitado. O que o guia faz é te deixar preparado para a consulta: saber o que perguntar, o que já esgotou em casa e o que ainda não faz sentido pedir.</p></details>
+        <details><summary>As fotos de antes e depois são garantia de resultado?</summary><p>Não. São casos individuais e estão na página justamente com a leitura do que mudou em cada região. Em todos eles mudaram ao mesmo tempo gordura corporal, retenção, pele e tempo, e parte do efeito em quem ainda cresce vem da idade. O guia não promete reproduzir nenhuma dessas fotos, promete o protocolo que organiza as variáveis que estão sob seu controle.</p></details>
+        <details><summary>Quanto vou precisar gastar seguindo o protocolo?</summary><p>Nas duas primeiras semanas, nada. O degrau 0 é inteiramente gratuito: sono, respiração, postura, higiene, gordura corporal. A primeira lista de compras aparece na semana 3 e tem três itens, não trinta. Um dos pontos centrais do livro é que comprar antes de fazer dá a sensação de progresso sem o progresso.</p></details>
+        <details><summary>Serve para mim se eu tenho mais de 30 anos?</summary><p>Serve. A parte de estrutura óssea muda de tom, porque expansão e ortodontia respondem diferente depois do fechamento das suturas, e o livro é explícito sobre isso. Pele, sono, físico, cabelo e eye area funcionam igual, e é ali que está a maior parte do retorno em qualquer idade.</p></details>
+        <details><summary>Tem protocolo de calvície ou de minoxidil?</summary><p>Não. Ficou fora desta edição de propósito, porque exige avaliação médica individualizada e porque um capítulo genérico sobre isso faria mais mal que bem. Se queda de cabelo é a sua questão principal, este não é o material certo para você agora.</p></details>
+        <details><summary>É só teoria ou dá para executar?</summary><p>Cada capítulo fecha em um protocolo consolidado, e o capítulo 8 junta todos em uma sequência de 90 dias dividida por semana, com o que iniciar, o que manter e quando tirar a foto de controle. A leitura leva uma tarde. A execução leva 90 dias.</p></details>
+        <details><summary>Como recebo o arquivo?</summary><p>Por email, logo após a confirmação do pagamento. É um PDF, abre em celular, tablet ou computador, sem aplicativo nem login. Se o email não chegar, responda o comprovante e o arquivo é reenviado manualmente.</p></details>
+        <details><summary>Por que a segunda edição?</summary><p>A primeira tratava as áreas de forma isolada. Esta reorganiza tudo pela escada de custo e risco, adiciona o capítulo de sono e hormônio, expande o de mitos, e fecha com o plano integrado de 90 dias que antes não existia.</p></details>
+        <details><summary>E se eu já faço quase tudo isso?</summary><p>Então o valor está em outro lugar: na tabela que separa o que é estrutural do que não é, nos prazos reais por área, e nas quatro armadilhas de percurso. A mais comum entre quem já faz bastante coisa é trocar de protocolo a cada três semanas e nunca medir nada.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec final rv" aria-labelledby="final-t">
+    <div class="wrap">
+      <h2 id="final-t">Faça o degrau 0 por inteiro. Depois disso a gente conversa sobre o resto.</h2>
+      <p>É gratuito, é onde está a maior parte do resultado, e é o que quase todo mundo pula. O guia serve para você não pular.</p>
+      <div class="hero-cta">
+        <a class="btn btn-lg" href="#comprar">Comprar por R$ 20</a>
+        <span class="hero-note">PDF imediato &middot; 7 dias de garantia</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/mark-white.png" alt="" width="30" height="42" aria-hidden="true">
+        <div>
+          <p>Método Hardmaxx <span style="font-family:var(--mono);font-weight:400;color:var(--red-bright)">v2</span></p>
+          <small>Guia técnico de looksmaxing. Segunda edição.</small>
+        </div>
+      </div>
+      <div class="foot-links">
+        <a href="#comprar">Comprar</a>
+        <a href="#resultados">Antes e depois</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#" data-legal>Termos de uso</a>
+        <a href="#" data-legal>Privacidade</a>
+        <a href="#" data-legal>Reembolso</a>
+      </div>
+    </div>
+    <p class="disclaimer"><b>Aviso.</b> Este material é informativo e não substitui avaliação médica. Nada aqui é prescrição. Medicamentos, procedimentos estéticos e cirurgias citados exigem acompanhamento de profissional habilitado, seja dermatologista, ortodontista ou cirurgião. Quem lê e aplica por conta própria assume o risco. As imagens de antes e depois são casos individuais e não representam resultado médio nem garantido. Se a insatisfação com a aparência ocupa horas do seu dia, atrapalha trabalho e relações, ou já te levou a considerar se machucar, procure um psicólogo ou psiquiatra. Isso tem nome clínico e tem tratamento que funciona.</p>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+
+/* scroll reveals */
+(function(){
+  var els = document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){
+    Array.prototype.forEach.call(els, function(el){ el.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, {rootMargin:'0px 0px -8% 0px', threshold:0.05});
+  Array.prototype.forEach.call(els, function(el){ io.observe(el); });
+})();
+
+/* word by word tagline reveal */
+(function(){
+  var host = document.getElementById('reveal');
+  if(!host || !('IntersectionObserver' in window)) return;
+  var frag = document.createDocumentFragment();
+  Array.prototype.forEach.call(host.childNodes, function(node){
+    var hi = node.nodeType === 1 && node.classList.contains('hi-line');
+    node.textContent.split(/(\s+)/).forEach(function(tok){
+      if(!tok) return;
+      if(/^\s+$/.test(tok)){ frag.appendChild(document.createTextNode(tok)); return; }
+      var w = document.createElement('w');
+      if(hi) w.className = 'hi';
+      w.textContent = tok;
+      frag.appendChild(w);
+    });
+  });
+  host.textContent = '';
+  host.appendChild(frag);
+
+  var words = host.querySelectorAll('w');
+  var wio = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return;
+      var i = Array.prototype.indexOf.call(words, e.target);
+      e.target.style.transitionDelay = (Math.min(i, 12) * 18) + 'ms';
+      e.target.classList.add('on');
+      wio.unobserve(e.target);
+    });
+  }, {rootMargin:'-35% 0px -35% 0px', threshold:0});
+  Array.prototype.forEach.call(words, function(w){ wio.observe(w); });
+})();
+
+/* current section in nav */
+(function(){
+  if(!('IntersectionObserver' in window)) return;
+  var links = Array.prototype.slice.call(document.querySelectorAll('.navlinks a'));
+  var targets = links.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+  var sio = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return;
+      links.forEach(function(a, i){ a.setAttribute('aria-current', targets[i] === e.target ? 'true' : 'false'); });
+    });
+  }, {rootMargin:'-45% 0px -50% 0px'});
+  targets.forEach(function(t){ if(t) sio.observe(t); });
+})();
+
+/* before / after: pins talk to the legend, both directions */
+(function(){
+  var root = document.getElementById('resultados');
+  if(!root) return;
+
+  function target(pin){ return document.getElementById(pin.getAttribute('data-t')); }
+  function clear(scope){
+    scope.querySelectorAll('.pin.on, .ba-legend li.on').forEach(function(el){ el.classList.remove('on'); });
+  }
+
+  root.querySelectorAll('.pin').forEach(function(pin){
+    var item = target(pin);
+    if(!item) return;
+    var card = pin.closest('.ba');
+
+    function on(){ clear(card); pin.classList.add('on'); item.classList.add('on'); }
+    function off(){ pin.classList.remove('on'); item.classList.remove('on'); }
+
+    pin.addEventListener('mouseenter', on);
+    pin.addEventListener('mouseleave', off);
+    pin.addEventListener('focus', on);
+    pin.addEventListener('blur', off);
+    pin.addEventListener('click', function(ev){
+      ev.preventDefault();
+      var already = pin.classList.contains('on');
+      clear(card);
+      if(already) return;
+      pin.classList.add('on');
+      item.classList.add('on');
+      if(window.matchMedia('(max-width:1020px)').matches){
+        item.scrollIntoView({block:'nearest', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+      }
+    });
+
+    item.addEventListener('mouseenter', on);
+    item.addEventListener('mouseleave', off);
+  });
+
+  var box = document.getElementById('pins');
+  if(box){
+    var sync = function(){ root.classList.toggle('no-pins', !box.checked); };
+    box.addEventListener('change', sync);
+    sync();
+  }
+})();
+
+/* legal placeholders: no dead links */
+document.querySelectorAll('[data-legal]').forEach(function(el){
+  el.addEventListener('click', function(ev){
+    if(el.getAttribute('href') !== '#') return;
+    ev.preventDefault();
+    var box = document.createElement('p');
+    box.textContent = 'Página ainda não configurada. Substitua o href por sua URL de política.';
+    box.style.cssText = 'margin-top:12px;font-size:13.5px;line-height:1.5;color:#FF4256;border:1px solid #26262B;padding:10px;width:100%';
+    var prev = el.parentNode.querySelector('[data-notice]');
+    if(prev) prev.remove();
+    box.setAttribute('data-notice','');
+    el.parentNode.insertBefore(box, el.nextSibling);
+  });
+});
+</script>
+</body>
+</html>

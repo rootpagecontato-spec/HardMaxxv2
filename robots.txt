@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rootpagecontato-spec.github.io/HardMaxxv2/sitemap.xml

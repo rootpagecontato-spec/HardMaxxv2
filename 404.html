@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página não encontrada · Método Hardmaxx</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0A0A0B">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Source+Serif+4:opsz,wght@8..60,400&family=Geist+Mono:wght@400&display=swap">
+<style>
+:root{
+  --base:#0A0A0B;--ink:#F2F0ED;--ink-2:#A9A49E;--ink-3:#8A857F;
+  --red:#C8102E;--red-bright:#FF4256;--line:#26262B;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;display:flex;align-items:center;background:var(--base);color:var(--ink);
+  font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.6;
+}
+main{max-width:640px;margin:0 auto;padding:48px 24px}
+img{display:block;width:46px;margin-bottom:28px;opacity:.9}
+.code{
+  font-family:"Geist Mono",ui-monospace,monospace;font-size:11.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center;gap:12px;
+}
+.code::before{content:"";width:22px;height:2px;background:var(--red)}
+h1{
+  margin:18px 0 0;font-family:"Archivo",system-ui,sans-serif;font-size:clamp(32px,6vw,46px);
+  font-weight:800;line-height:1.02;letter-spacing:-.03em;text-transform:uppercase;
+}
+p{margin:20px 0 0;color:var(--ink-2)}
+a.btn{
+  display:inline-flex;margin-top:36px;padding:15px 26px;background:var(--red);border:1px solid var(--red);
+  color:#fff;text-decoration:none;font-family:"Archivo",system-ui,sans-serif;font-weight:700;font-size:16px;
+  border-radius:2px;transition:background-color .18s cubic-bezier(.32,.72,0,1);
+}
+a.btn:hover{background:#A60D26;border-color:#A60D26}
+a.btn:focus-visible{outline:2px solid var(--red-bright);outline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+  <img src="assets/mark-white.png" alt="" width="46" height="64" aria-hidden="true">
+  <span class="code">Erro 404</span>
+  <h1>Esta página não existe.</h1>
+  <p>O endereço está errado ou o conteúdo foi movido. A página do guia continua no lugar de sempre.</p>
+  <a class="btn" href="./">Voltar para o início</a>
+</main>
+</body>
+</html>
